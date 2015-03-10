@@ -1,0 +1,2 @@
+/usr/bin/ar cr libparser.a  CMakeFiles/parser.dir/lexer.o CMakeFiles/parser.dir/parser.o CMakeFiles/parser.dir/mistral-parser.o
+/usr/bin/ranlib libparser.a

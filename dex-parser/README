@@ -1,0 +1,62 @@
+WHAT IS THE TOOL::
+dex-parser is a front-end used to translate compiled Android application code file (.dex file) into a third part Static Analysis Intermedi-
+ate Language called sail.(http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CDsQFjAA&url=http%3A%2F%2Fwww.cs.wm.edu%2F~idillig%2Fsail.pdf&ei=fTN7ULbzNKfV0QGuo4HwDg&usg=AFQjCNGVR2g_h936wSxgN05zAS2SnL7zVw&sig2=XFBKTb_8qC9vCj6AydMTzA&cad=rja), and to serialize each function level information as a translation unit into each .sail file.
+
+HOW TO USE THE TOOL::
+
+1)generate Makefile :
+cmake has been configured already, only need to go to the project_path/build, run "cmake..", which automatically generates Makefile for your project, if no build folder under project_path, please create one. One example is: cd ~/research/framework/build, and run "cmake..". (You can skip this step if Makefile has been already generated.)
+
+2)build the project : 
+use the command "make" under the build dirctory to build the project, which will generate dex-parser under project_path/build/dex-parser/.(where project_path is the location you put your project into) 
+(if there is already an executable dex-parser file there, you can skip this step)
+
+3)run the project :
+inside the same directory as step 2), use the following command to run the project: "dex-parser/dex-parser target_dex_file serialization_dir"
+two parameters are given to this command to be able to run this tool, "targer_dex_file" and "serialization_dir",
+where "target_dex_file" is an input .dex file for whatever android app you want to parse, which including the path information to reach the .dex file, and "serialization_dir" is the destination directory into which all serialized files you want to put.
+One example is dex-parser/dex-parser ~/stamp3-apps/TUIOdroid/bin/classes.dex /scratch/out 
+
+4)after you have done the first three steps, the serialized files have already been written into the serialization_dir (for example /scratch/out in our command example step 3)). You can apply the code inside sail-test/sail-test.cpp into those single .sail files and read sail instructions and CFG back for each function.
+The code used to read serialized content back are like following:
+
+///////////////
+using namespace sail; //namespace for high-level il
+using namespace il; //namespace for low-levl il
+#include <iostream>
+
+#include "Serializer.h"
+#include "Function.h"
+#include "Cfg.h"
+
+using namespace std;
+
+int main(int argc, char** argv)
+{
+	if(argc < 2)
+	{
+		cout << "No .sail file provided. " << endl;
+		exit(1);
+	}
+	sail::Function* f = sail::Serializer::load_file(argv[1]);
+	assert(f != NULL);
+	cout << "CFG" << endl << f->get_cfg()->to_dotty(false) << endl;
+
+}
+//////////////////
+This code reads sail instructions' CFG back for each function with a line number information is attached for each sail instruction ( the line number is the line number informationof its source code in .java file). 
+
+EXCEPTION DESCRIPTION::
+Our tool can support exceptions handling which are illustrated by observing CFG if the function contains exceptions. (but current version doesn't support nested try-catch-finally construct.) Our tool differents exceptions thrown by lib_function call or self_defined function call. A flag inside project_path/dex-parser/InstructionMapping.cpp file called "LIB_HAS_EXCEPTION" can be set to "true" if you want to consider potential exceptions thrown by lib_function call or set to "false" if you don't want to consider them.
+
+Three global variables are set to control the exceptions, there are "LIB_HAS_EXCEPTION", "CUR_EXCEPTIONS" and "EXCEPTION_TYPE_VAR".
+"LIB_HAS_EXCEPTION" is use to denote if current lib. function call has potential exceptions thrown, if "LIB_HAS_EXCEPTION == 1", there are exceptions may be thrown by calling the current lib function, otherwise, no exception can be thrown.
+
+"CUR_EXCEPTIONS" will be check furtherly after determining current "LIB_HAD_EXCEPTION == 1" or self_defined function has a throw exception annotation, this variable is used to denote if current function call(for both lib. function call and self_defined function call) really throws exceptions, "CUR_EXCEPTIONS == 1" means runtime exception truly happend, then we may need to give a further check to see the variable of "EXCEPTION_TYPE_VAR" (which means what type the exception is) to determine which catch branch/exception handler the date flow is transferred to (if there are more than one catch branches for try block). 
+
+ 
+
+
+
+
+

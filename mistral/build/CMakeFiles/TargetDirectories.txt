@@ -1,0 +1,4 @@
+/home/yufeng/research/others/compass/mistral/build/CMakeFiles/mistral.dir
+/home/yufeng/research/others/compass/mistral/build/ui/CMakeFiles/mistral_ui.dir
+/home/yufeng/research/others/compass/mistral/build/parser/CMakeFiles/parser.dir
+/home/yufeng/research/others/compass/mistral/build/smtparser/CMakeFiles/smtparser.dir

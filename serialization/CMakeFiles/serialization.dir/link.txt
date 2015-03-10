@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib/libserialization.a  CMakeFiles/serialization.dir/compass-serialization.o
+/usr/bin/ranlib ../lib/libserialization.a

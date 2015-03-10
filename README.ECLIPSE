@@ -1,0 +1,37 @@
+This project can be developed and managed from Eclipse.
+For this, install Eclipse and the CDT tools for C/C++ development
+
+To build the project, you first must run cmake from the commmand line. You
+also have to manually rerun cmake every time you add a file in Eclipse.
+
+However, the build process can be integrated into Eclipse by using the generated
+makefiles. Just change the build settings to call make.
+
+
+Notes:
+------
+
+To add the Mistral ui to the run configurations:
+- go to run configurations
+- click add
+- change name to Mistral
+- For C/C++ application, pick browse ad choose framework/build/mistral/ui/mistral_ui
+- Go to next tab labeled arguments, change working directory by clicking on 
+  workspace and select framework/mistral/ui
+- Go to tab Environment, add "DISPLAY" to ":0.0"
+- Click save
+
+   
+To add the Compass ui to the run configurations:
+- go to run configurations
+- click add
+- change name to Compass
+- For C/C++ application, pick browse ad choose framework/build/compass/compass_ui
+- Go to next tab labeled arguments, add   --nocrashhandler to arguments. 
+  This disables the KDE crash handler which prevents the debugger for catching
+  segmentation faults.
+- Click save
+
+   
+   
+ 

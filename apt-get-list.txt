@@ -1,0 +1,1 @@
+sudo apt-get install libc6-dev-i386 gettext gawk flex libmpfr-dev cmake  kdelibs5-dev libgtkmm-2.4-dev libboost-thread-dev libboost-serialization-dev libglademm-2.4-dev graphviz doxygen g++ libgmp-dev build-essential flex bison  binutils-gold

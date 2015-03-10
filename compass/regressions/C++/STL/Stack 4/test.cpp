@@ -1,0 +1,18 @@
+
+using namespace spec;
+
+
+void bar()
+{
+  stack<int> s;
+  s.push(7);
+  s.push(8);
+  s.push(45);
+  int x = s.top();
+  static_assert(x == 45);
+  s.pop();
+  int y = s.top();
+  s.pop();
+  static_assert(s.empty()); //should fail
+  
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib/libutil.a  CMakeFiles/util.dir/util.o
+/usr/bin/ranlib ../lib/libutil.a

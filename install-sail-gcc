@@ -1,0 +1,101 @@
+#!/bin/bash
+
+#
+# Install script for SAIL.
+# Isil Dillig isil@cs.wm.edu
+
+
+# Fix moved libraries in Ubuntu >= 11.10
+#cd /usr/lib
+#ln -s x86_64-linux-gnu/crt*.o
+
+echo "******** READ THIS ***********"
+echo "If you are using Ubuntu >=11.04, you have to add symlinks for libraries"
+echo "in order for gcc 4.3 to build. To do this, run the following commands"
+echo "----------------------------------"
+echo "cd /usr/lib"
+echo "sudo ln -s x86_64-linux-gnu/crt*.o ."
+echo "----------------------------------"
+read -p "Press CTL+c to abort, any key to continue if you created these links"
+
+
+if [ $# -eq 0 ] 
+then
+	echo "******** ERROR *******"
+	echo "First argument must specify path for gcc installation."
+	echo "This should be the path one level below framework/gcc"
+	echo "Optional second argument specifies the number of CPUs."
+	exit 1
+fi
+
+numcpu=1
+if [ $# -gt 1 ]
+then numcpu=$2
+fi
+
+
+#Get GCC core
+cd ..
+
+rm gcc-core-4.3.4.tar.gz*
+rm gcc-g++-4.3.4.tar.gz*
+
+wget ftp://mirrors.kernel.org/gnu/gcc/gcc-4.3.4/gcc-core-4.3.4.tar.gz
+
+#Get G++ additions
+wget ftp://mirrors.kernel.org/gnu/gcc/gcc-4.3.4/gcc-g++-4.3.4.tar.gz
+
+#unzip gcc-core
+tar xf gcc-core-4.3.4.tar.gz
+
+#unzip g++
+tar xf gcc-g++-4.3.4.tar.gz
+
+rm gcc-core-4.3.4.tar.gz
+rm gcc-g++-4.3.4.tar.gz
+
+
+#delete files
+cd gcc-4.3.4
+cd gcc
+rm c-decl.c c-gimplify.c common.opt Makefile.in
+cd cp
+rm Make-lang.in
+rm decl2.c
+rm decl.c
+
+#replace with symlinks
+ln -s ../../../framework/gcc/cp/Make-lang.in Make-lang.in
+ln -s ../../../framework/gcc/cp/decl2.c decl2.c
+ln -s ../../../framework/gcc/cp/decl.c decl.c
+cd ..
+
+#more symlinks for gcc core
+ln -s ../../framework/gcc/c-decl.c c-decl.c
+ln -s ../../framework/gcc/c-gimplify.c c-gimplify.c
+ln -s ../../framework/gcc/common.opt common.opt
+ln -s ../../framework/gcc/Makefile.in Makefile.in
+
+ln -s ../../framework/gcc/il-c.h il-c.h
+ln -s ../../framework/gcc/il-c.c il-c.c
+ln -s ../../framework/gcc/il-main.h il-main.h
+ln -s ../../framework/gcc/il-main.cpp il-main.cpp
+
+#link library
+ln -s ../../framework/build/lib/libsail.a libsail.a
+ln -s ../../framework/build/lib/libutil.a libutil.a
+ln -s ../../framework/sail/ sail
+ln -s ../../framework/util/ util
+cd ..
+
+#configure
+./configure --enable-stage1-languages=all --disable-bootstrap --prefix=$1 --enable-checking=no --disable-stage1-checking
+
+
+make -j$numcpu
+
+make install
+
+cd ..
+
+cd framework

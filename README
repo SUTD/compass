@@ -1,0 +1,12 @@
+To Install:
+-----------
+
+- First install all the required dependencies. For Ubunut/Kubuntu, they are all listed in the file apt-get-list.txt
+- Open the file compass/ui/compass_ui.h and adjudt the #define FRAMEWORK_LOCATION
+- Then, go to the build folder and type:
+cmake ..
+make
+
+- Then run install-sail-gcc
+
+The compass binary will be in build/compass/compass_ui

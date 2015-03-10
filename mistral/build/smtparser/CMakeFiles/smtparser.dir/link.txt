@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsmtparser.a  CMakeFiles/smtparser.dir/smtlexer.o CMakeFiles/smtparser.dir/smtparser.o CMakeFiles/smtparser.dir/smt-parser.o
+/usr/bin/ranlib libsmtparser.a
