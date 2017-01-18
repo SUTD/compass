@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yufeng/research/others/compass/mistral
+CMAKE_SOURCE_DIR = /home/lijiaying/Research/GitHub/compass/mistral
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yufeng/research/others/compass/mistral/build
+CMAKE_BINARY_DIR = /home/lijiaying/Research/GitHub/compass/mistral/build
 
 # Include any dependencies generated for this target.
 include parser/CMakeFiles/parser.dir/depend.make
@@ -50,31 +50,31 @@ include parser/CMakeFiles/parser.dir/progress.make
 include parser/CMakeFiles/parser.dir/flags.make
 
 parser/parser.cpp: ../parser/parser.y
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[BISON][MistralParser] Building parser with bison 3.0.2"
-	cd /home/yufeng/research/others/compass/mistral/parser && /usr/bin/bison -d -o /home/yufeng/research/others/compass/mistral/build/parser/parser.cpp parser.y
+	cd /home/lijiaying/Research/GitHub/compass/mistral/parser && /usr/bin/bison -d -o /home/lijiaying/Research/GitHub/compass/mistral/build/parser/parser.cpp parser.y
 
 parser/parser.hpp: parser/parser.cpp
 
 parser/lexer.cpp: ../parser/lexer.l
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[FLEX][MistralLexer] Building scanner with flex 2.5.35"
-	cd /home/yufeng/research/others/compass/mistral/parser && /usr/bin/flex -o/home/yufeng/research/others/compass/mistral/build/parser/lexer.cpp lexer.l
+	cd /home/lijiaying/Research/GitHub/compass/mistral/parser && /usr/bin/flex -o/home/lijiaying/Research/GitHub/compass/mistral/build/parser/lexer.cpp lexer.l
 
 parser/CMakeFiles/parser.dir/lexer.o: parser/CMakeFiles/parser.dir/flags.make
 parser/CMakeFiles/parser.dir/lexer.o: parser/lexer.cpp
 parser/CMakeFiles/parser.dir/lexer.o: parser/parser.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object parser/CMakeFiles/parser.dir/lexer.o"
-	cd /home/yufeng/research/others/compass/mistral/build/parser && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/lexer.o -c /home/yufeng/research/others/compass/mistral/build/parser/lexer.cpp
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/lexer.o -c /home/lijiaying/Research/GitHub/compass/mistral/build/parser/lexer.cpp
 
 parser/CMakeFiles/parser.dir/lexer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/lexer.i"
-	cd /home/yufeng/research/others/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/build/parser/lexer.cpp > CMakeFiles/parser.dir/lexer.i
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/build/parser/lexer.cpp > CMakeFiles/parser.dir/lexer.i
 
 parser/CMakeFiles/parser.dir/lexer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/lexer.s"
-	cd /home/yufeng/research/others/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/build/parser/lexer.cpp -o CMakeFiles/parser.dir/lexer.s
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/build/parser/lexer.cpp -o CMakeFiles/parser.dir/lexer.s
 
 parser/CMakeFiles/parser.dir/lexer.o.requires:
 .PHONY : parser/CMakeFiles/parser.dir/lexer.o.requires
@@ -87,17 +87,17 @@ parser/CMakeFiles/parser.dir/lexer.o.provides.build: parser/CMakeFiles/parser.di
 
 parser/CMakeFiles/parser.dir/parser.o: parser/CMakeFiles/parser.dir/flags.make
 parser/CMakeFiles/parser.dir/parser.o: parser/parser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object parser/CMakeFiles/parser.dir/parser.o"
-	cd /home/yufeng/research/others/compass/mistral/build/parser && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/parser.o -c /home/yufeng/research/others/compass/mistral/build/parser/parser.cpp
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/parser.o -c /home/lijiaying/Research/GitHub/compass/mistral/build/parser/parser.cpp
 
 parser/CMakeFiles/parser.dir/parser.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/parser.i"
-	cd /home/yufeng/research/others/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/build/parser/parser.cpp > CMakeFiles/parser.dir/parser.i
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/build/parser/parser.cpp > CMakeFiles/parser.dir/parser.i
 
 parser/CMakeFiles/parser.dir/parser.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/parser.s"
-	cd /home/yufeng/research/others/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/build/parser/parser.cpp -o CMakeFiles/parser.dir/parser.s
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/build/parser/parser.cpp -o CMakeFiles/parser.dir/parser.s
 
 parser/CMakeFiles/parser.dir/parser.o.requires:
 .PHONY : parser/CMakeFiles/parser.dir/parser.o.requires
@@ -110,17 +110,17 @@ parser/CMakeFiles/parser.dir/parser.o.provides.build: parser/CMakeFiles/parser.d
 
 parser/CMakeFiles/parser.dir/mistral-parser.o: parser/CMakeFiles/parser.dir/flags.make
 parser/CMakeFiles/parser.dir/mistral-parser.o: ../parser/mistral-parser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object parser/CMakeFiles/parser.dir/mistral-parser.o"
-	cd /home/yufeng/research/others/compass/mistral/build/parser && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/mistral-parser.o -c /home/yufeng/research/others/compass/mistral/parser/mistral-parser.cpp
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/mistral-parser.o -c /home/lijiaying/Research/GitHub/compass/mistral/parser/mistral-parser.cpp
 
 parser/CMakeFiles/parser.dir/mistral-parser.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/mistral-parser.i"
-	cd /home/yufeng/research/others/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/parser/mistral-parser.cpp > CMakeFiles/parser.dir/mistral-parser.i
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/parser/mistral-parser.cpp > CMakeFiles/parser.dir/mistral-parser.i
 
 parser/CMakeFiles/parser.dir/mistral-parser.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/mistral-parser.s"
-	cd /home/yufeng/research/others/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/parser/mistral-parser.cpp -o CMakeFiles/parser.dir/mistral-parser.s
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/parser/mistral-parser.cpp -o CMakeFiles/parser.dir/mistral-parser.s
 
 parser/CMakeFiles/parser.dir/mistral-parser.o.requires:
 .PHONY : parser/CMakeFiles/parser.dir/mistral-parser.o.requires
@@ -146,8 +146,8 @@ parser/libparser.a: parser/CMakeFiles/parser.dir/mistral-parser.o
 parser/libparser.a: parser/CMakeFiles/parser.dir/build.make
 parser/libparser.a: parser/CMakeFiles/parser.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libparser.a"
-	cd /home/yufeng/research/others/compass/mistral/build/parser && $(CMAKE_COMMAND) -P CMakeFiles/parser.dir/cmake_clean_target.cmake
-	cd /home/yufeng/research/others/compass/mistral/build/parser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parser.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && $(CMAKE_COMMAND) -P CMakeFiles/parser.dir/cmake_clean_target.cmake
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 parser/CMakeFiles/parser.dir/build: parser/libparser.a
@@ -159,12 +159,12 @@ parser/CMakeFiles/parser.dir/requires: parser/CMakeFiles/parser.dir/mistral-pars
 .PHONY : parser/CMakeFiles/parser.dir/requires
 
 parser/CMakeFiles/parser.dir/clean:
-	cd /home/yufeng/research/others/compass/mistral/build/parser && $(CMAKE_COMMAND) -P CMakeFiles/parser.dir/cmake_clean.cmake
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build/parser && $(CMAKE_COMMAND) -P CMakeFiles/parser.dir/cmake_clean.cmake
 .PHONY : parser/CMakeFiles/parser.dir/clean
 
 parser/CMakeFiles/parser.dir/depend: parser/parser.cpp
 parser/CMakeFiles/parser.dir/depend: parser/parser.hpp
 parser/CMakeFiles/parser.dir/depend: parser/lexer.cpp
-	cd /home/yufeng/research/others/compass/mistral/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yufeng/research/others/compass/mistral /home/yufeng/research/others/compass/mistral/parser /home/yufeng/research/others/compass/mistral/build /home/yufeng/research/others/compass/mistral/build/parser /home/yufeng/research/others/compass/mistral/build/parser/CMakeFiles/parser.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lijiaying/Research/GitHub/compass/mistral /home/lijiaying/Research/GitHub/compass/mistral/parser /home/lijiaying/Research/GitHub/compass/mistral/build /home/lijiaying/Research/GitHub/compass/mistral/build/parser /home/lijiaying/Research/GitHub/compass/mistral/build/parser/CMakeFiles/parser.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : parser/CMakeFiles/parser.dir/depend
 

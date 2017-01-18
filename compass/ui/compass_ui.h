@@ -46,7 +46,7 @@ class SummaryGraph;
  * you set this to ~/research. This path can include ~
  *
  */
-#define FRAMEWORK_LOCATION "~/research"
+#define FRAMEWORK_LOCATION "~/Research/GitHub/compass"
 
 /*
  * Macro definitions to be included in every compass run.

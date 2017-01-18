@@ -1,0 +1,15 @@
+/home/lijiaying/Research/GitHub/compass/build/abductor/CMakeFiles/abductor.dir
+/home/lijiaying/Research/GitHub/compass/build/compass/CMakeFiles/compass.dir
+/home/lijiaying/Research/GitHub/compass/build/compass/CMakeFiles/compass_ui.dir
+/home/lijiaying/Research/GitHub/compass/build/compass/CMakeFiles/compass_ui_automoc.dir
+/home/lijiaying/Research/GitHub/compass/build/dex-parser/CMakeFiles/dex-parser.dir
+/home/lijiaying/Research/GitHub/compass/build/dex-parser-test/CMakeFiles/dex-parser-test.dir
+/home/lijiaying/Research/GitHub/compass/build/mistral/CMakeFiles/mistral.dir
+/home/lijiaying/Research/GitHub/compass/build/mistral/ui/CMakeFiles/mistral_ui.dir
+/home/lijiaying/Research/GitHub/compass/build/mistral/parser/CMakeFiles/parser.dir
+/home/lijiaying/Research/GitHub/compass/build/sail/CMakeFiles/sail.dir
+/home/lijiaying/Research/GitHub/compass/build/sail-test/CMakeFiles/sail-test.dir
+/home/lijiaying/Research/GitHub/compass/build/serialization/CMakeFiles/serialization.dir
+/home/lijiaying/Research/GitHub/compass/build/mistral/smtparser/CMakeFiles/smtparser.dir
+/home/lijiaying/Research/GitHub/compass/build/CMakeFiles/uninstall.dir
+/home/lijiaying/Research/GitHub/compass/build/util/CMakeFiles/util.dir

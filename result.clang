@@ -1,0 +1,165 @@
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/Function.cpp:21:
+/home/lijiaying/Research/GitHub/compass/./sail/sail/FieldRefWrite.h:19:5: warning: class 'record_info' was previously declared as a struct [-Wmismatched-tags]
+                         class record_info;}
+                         ^
+/home/lijiaying/Research/GitHub/compass/./sail/il/type.h:636:8: note: previous use is here
+struct record_info
+       ^
+/home/lijiaying/Research/GitHub/compass/./sail/sail/FieldRefWrite.h:19:5: note: did you mean struct here?
+                         class record_info;}
+                         ^~~~~
+                         struct
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/Function.cpp:25:
+In file included from /home/lijiaying/Research/GitHub/compass/./sail/sail/FunctionCall.h:17:
+/home/lijiaying/Research/GitHub/compass/sail/call_id.h:32:1: warning: 'call_id' defined as a struct here but previously declared as a class [-Wmismatched-tags]
+struct call_id
+^
+/home/lijiaying/Research/GitHub/compass/sail/call_id.h:24:1: note: did you mean struct here?
+class call_id;
+^~~~~
+struct
+2 warnings generated.
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/Serializer.cpp:8:
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail-serialization.h:12:
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/sail.h:22:
+/home/lijiaying/Research/GitHub/compass/./sail/sail/FieldRefRead.h:21:5: warning: class 'record_info' was previously declared as a struct [-Wmismatched-tags]
+                         class record_info;
+                         ^
+/home/lijiaying/Research/GitHub/compass/./sail/il/type.h:636:8: note: previous use is here
+struct record_info
+       ^
+/home/lijiaying/Research/GitHub/compass/./sail/sail/FieldRefRead.h:21:5: note: did you mean struct here?
+                         class record_info;
+                         ^~~~~
+                         struct
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/Serializer.cpp:8:
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail-serialization.h:12:
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/sail.h:25:
+In file included from /home/lijiaying/Research/GitHub/compass/./sail/sail/FunctionCall.h:17:
+/home/lijiaying/Research/GitHub/compass/sail/call_id.h:32:1: warning: 'call_id' defined as a struct here but previously declared as a class [-Wmismatched-tags]
+struct call_id
+^
+/home/lijiaying/Research/GitHub/compass/sail/call_id.h:24:1: note: did you mean struct here?
+class call_id;
+^~~~~
+struct
+2 warnings generated.
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/Cfg.cpp:19:
+In file included from /home/lijiaying/Research/GitHub/compass/./sail/sail/FunctionCall.h:17:
+/home/lijiaying/Research/GitHub/compass/sail/call_id.h:32:1: warning: 'call_id' defined as a struct here but previously declared as a class [-Wmismatched-tags]
+struct call_id
+^
+/home/lijiaying/Research/GitHub/compass/sail/call_id.h:24:1: note: did you mean struct here?
+class call_id;
+^~~~~
+struct
+1 warning generated.
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/Instruction.cpp:9:
+In file included from /home/lijiaying/Research/GitHub/compass/./sail/sail/sail.h:22:
+/home/lijiaying/Research/GitHub/compass/./sail/sail/FieldRefRead.h:21:5: warning: class 'record_info' was previously declared as a struct [-Wmismatched-tags]
+                         class record_info;
+                         ^
+/home/lijiaying/Research/GitHub/compass/./sail/il/type.h:636:8: note: previous use is here
+struct record_info
+       ^
+/home/lijiaying/Research/GitHub/compass/./sail/sail/FieldRefRead.h:21:5: note: did you mean struct here?
+                         class record_info;
+                         ^~~~~
+                         struct
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/Instruction.cpp:9:
+In file included from /home/lijiaying/Research/GitHub/compass/./sail/sail/sail.h:25:
+In file included from /home/lijiaying/Research/GitHub/compass/./sail/sail/FunctionCall.h:17:
+/home/lijiaying/Research/GitHub/compass/sail/call_id.h:32:1: warning: 'call_id' defined as a struct here but previously declared as a class [-Wmismatched-tags]
+struct call_id
+^
+/home/lijiaying/Research/GitHub/compass/sail/call_id.h:24:1: note: did you mean struct here?
+class call_id;
+^~~~~
+struct
+2 warnings generated.
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/FunctionCall.cpp:8:
+In file included from /home/lijiaying/Research/GitHub/compass/./sail/sail/FunctionCall.h:17:
+/home/lijiaying/Research/GitHub/compass/sail/call_id.h:32:1: warning: 'call_id' defined as a struct here but previously declared as a class [-Wmismatched-tags]
+struct call_id
+^
+/home/lijiaying/Research/GitHub/compass/sail/call_id.h:24:1: note: did you mean struct here?
+class call_id;
+^~~~~
+struct
+1 warning generated.
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/FieldRefWrite.cpp:9:
+In file included from /home/lijiaying/Research/GitHub/compass/./sail/sail/Variable.h:15:
+In file included from /home/lijiaying/Research/GitHub/compass/./sail/sail/../il/variable.h:16:
+/home/lijiaying/Research/GitHub/compass/./sail/il/type.h:636:1: warning: 'record_info' defined as a struct here but previously declared as a class [-Wmismatched-tags]
+struct record_info
+^
+/home/lijiaying/Research/GitHub/compass/./sail/sail/FieldRefWrite.h:19:5: note: did you mean struct here?
+                         class record_info;}
+                         ^~~~~
+                         struct
+1 warning generated.
+/home/lijiaying/Research/GitHub/compass/sail/sail/Variable.cpp:118:22: warning: assigning field to itself [-Wself-assign-field]
+        this->is_static_var = is_static_var;
+                            ^
+1 warning generated.
+In file included from /home/lijiaying/Research/GitHub/compass/sail/sail/FieldRefRead.cpp:9:
+In file included from /home/lijiaying/Research/GitHub/compass/./sail/sail/Variable.h:15:
+In file included from /home/lijiaying/Research/GitHub/compass/./sail/sail/../il/variable.h:16:
+/home/lijiaying/Research/GitHub/compass/./sail/il/type.h:636:1: warning: 'record_info' defined as a struct here but previously declared as a class [-Wmismatched-tags]
+struct record_info
+^
+/home/lijiaying/Research/GitHub/compass/./sail/sail/FieldRefRead.h:21:5: note: did you mean struct here?
+                         class record_info;
+                         ^~~~~
+                         struct
+1 warning generated.
+/home/lijiaying/Research/GitHub/compass/sail/il/variable_declaration.cpp:17:11: warning: field 'ns' will be initialized after field 'init_exp' [-Wreorder]
+                var(v), ns(ns), init_exp(init)
+                        ^
+1 warning generated.
+/home/lijiaying/Research/GitHub/compass/sail/il/type.cpp:115:37: error: no viable conversion from '_Node_iterator<[2 * ...], __hash_cached::value aka -1>' to '_Node_iterator<[2 * ...], __hash_cached::value aka 0>'
+    unordered_set<type *>::iterator it = instances.find(t);
+                                    ^    ~~~~~~~~~~~~~~~~~
+/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/bits/hashtable_policy.h:231:12: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'iterator' (aka '_Node_iterator<value_type, __constant_iterators::value, __hash_cached::value>') to 'const std::__detail::_Node_iterator<il::type *, true, false> &' for 1st argument
+    struct _Node_iterator
+           ^
+/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/bits/hashtable_policy.h:231:12: note: candidate constructor (the implicit move constructor) not viable: no known conversion from 'iterator' (aka '_Node_iterator<value_type, __constant_iterators::value, __hash_cached::value>') to 'std::__detail::_Node_iterator<il::type *, true, false> &&' for 1st argument
+    struct _Node_iterator
+           ^
+/home/lijiaying/Research/GitHub/compass/sail/il/type.cpp:148:25: warning: unused variable 'it' [-Wunused-variable]
+          set<type*>::iterator it = to_delete.begin();
+                               ^
+/home/lijiaying/Research/GitHub/compass/sail/il/type.cpp:157:34: error: no viable conversion from '_Node_iterator<[2 * ...], __hash_cached::value aka -1>' to '_Node_iterator<[2 * ...], __hash_cached::value aka 0>'
+        unordered_set<type *>::iterator it = instances.find(t);
+                                        ^    ~~~~~~~~~~~~~~~~~
+/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/bits/hashtable_policy.h:231:12: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'iterator' (aka '_Node_iterator<value_type, __constant_iterators::value, __hash_cached::value>') to 'const std::__detail::_Node_iterator<il::type *, true, false> &' for 1st argument
+    struct _Node_iterator
+           ^
+/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/bits/hashtable_policy.h:231:12: note: candidate constructor (the implicit move constructor) not viable: no known conversion from 'iterator' (aka '_Node_iterator<value_type, __constant_iterators::value, __hash_cached::value>') to 'std::__detail::_Node_iterator<il::type *, true, false> &&' for 1st argument
+    struct _Node_iterator
+           ^
+/home/lijiaying/Research/GitHub/compass/sail/il/type.cpp:331:34: error: no viable conversion from '_Node_iterator<[2 * ...], __hash_cached::value aka -1>' to '_Node_iterator<[2 * ...], __hash_cached::value aka 0>'
+        unordered_set<type *>::iterator it = type::instances.find(this);
+                                        ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/bits/hashtable_policy.h:231:12: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'iterator' (aka '_Node_iterator<value_type, __constant_iterators::value, __hash_cached::value>') to 'const std::__detail::_Node_iterator<il::type *, true, false> &' for 1st argument
+    struct _Node_iterator
+           ^
+/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/bits/hashtable_policy.h:231:12: note: candidate constructor (the implicit move constructor) not viable: no known conversion from 'iterator' (aka '_Node_iterator<value_type, __constant_iterators::value, __hash_cached::value>') to 'std::__detail::_Node_iterator<il::type *, true, false> &&' for 1st argument
+    struct _Node_iterator
+           ^
+/home/lijiaying/Research/GitHub/compass/sail/il/type.cpp:338:34: error: no viable conversion from '_Node_iterator<[2 * ...], __hash_cached::value aka -1>' to '_Node_iterator<[2 * ...], __hash_cached::value aka 0>'
+        unordered_set<type *>::iterator it = type::instances.find(this);
+                                        ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/bits/hashtable_policy.h:231:12: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'iterator' (aka '_Node_iterator<value_type, __constant_iterators::value, __hash_cached::value>') to 'const std::__detail::_Node_iterator<il::type *, true, false> &' for 1st argument
+    struct _Node_iterator
+           ^
+/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/bits/hashtable_policy.h:231:12: note: candidate constructor (the implicit move constructor) not viable: no known conversion from 'iterator' (aka '_Node_iterator<value_type, __constant_iterators::value, __hash_cached::value>') to 'std::__detail::_Node_iterator<il::type *, true, false> &&' for 1st argument
+    struct _Node_iterator
+           ^
+/home/lijiaying/Research/GitHub/compass/sail/il/type.cpp:1097:7: warning: unused variable 'check' [-Wunused-variable]
+        bool check = TEMP_DEBUG && to_string() == other.to_string();
+             ^
+2 warnings and 4 errors generated.
+make[2]: *** [sail/CMakeFiles/sail.dir/il/type.o] Error 1
+make[1]: *** [sail/CMakeFiles/sail.dir/all] Error 2
+make: *** [all] Error 2

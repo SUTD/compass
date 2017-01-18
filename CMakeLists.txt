@@ -13,14 +13,16 @@
 cmake_minimum_required(VERSION 2.6)
 
 #We use build type DEBUG so assert is enabled.
-set (CMAKE_BUILD_TYPE Debug)
+#set (CMAKE_BUILD_TYPE Debug)
 
 #These flags have been tuned to give the best performance, however, they may render
 # valgrind useless. If you must debug memory corruption using valgrind, remove 
 # -ffast-math -mfpmath=sse -msse3
 
 
-set(CMAKE_CXX_FLAGS "-std=c++0x -O2 -mtune=native -march=native -ftree-vectorize -funroll-loops -fstrict-aliasing  -fno-stack-protector -ffast-math -mfpmath=sse -msse3 -Wall -fmessage-length=0 -g ")
+#set(CMAKE_CXX_COMPILER             "clang++")
+
+set(CMAKE_CXX_FLAGS "-std=c++0x -O2 -mtune=native -march=native -ftree-vectorize -funroll-loops -fstrict-aliasing  -fno-stack-protector -ffast-math -mfpmath=sse -msse3 -Wall -fmessage-length=0 -g -std=c++11")
 set(CMAKE_CXX_FLAGS_DEBUG "-std=c++0x -O2 -mtune=native -march=native -ftree-vectorize -funroll-loops -fstrict-aliasing  -fno-stack-protector -ffast-math -mfpmath=sse -msse3 -Wall -fmessage-length=0 -g ")
 
 

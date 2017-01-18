@@ -1,6 +1,6 @@
-#line 2 "/home/yufeng/research/others/compass/mistral/build/smtparser/smtlexer.cpp"
+#line 2 "/home/lijiaying/Research/GitHub/compass/mistral/build/smtparser/smtlexer.cpp"
 
-#line 4 "/home/yufeng/research/others/compass/mistral/build/smtparser/smtlexer.cpp"
+#line 4 "/home/lijiaying/Research/GitHub/compass/mistral/build/smtparser/smtlexer.cpp"
 
 #define  YY_INT_ALIGNED short int
 
@@ -549,7 +549,7 @@ int c = 0;
 
 
 
-#line 553 "/home/yufeng/research/others/compass/mistral/build/smtparser/smtlexer.cpp"
+#line 553 "/home/lijiaying/Research/GitHub/compass/mistral/build/smtparser/smtlexer.cpp"
 
 #define INITIAL 0
 #define IGNORE 1
@@ -745,7 +745,7 @@ YY_DECL
 
 
 
-#line 749 "/home/yufeng/research/others/compass/mistral/build/smtparser/smtlexer.cpp"
+#line 749 "/home/lijiaying/Research/GitHub/compass/mistral/build/smtparser/smtlexer.cpp"
 
 	if ( !(yy_init) )
 		{
@@ -1052,7 +1052,7 @@ YY_RULE_SETUP
 #line 206 "smtlexer.l"
 ECHO;
 	YY_BREAK
-#line 1056 "/home/yufeng/research/others/compass/mistral/build/smtparser/smtlexer.cpp"
+#line 1056 "/home/lijiaying/Research/GitHub/compass/mistral/build/smtparser/smtlexer.cpp"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(IGNORE):
 case YY_STATE_EOF(NEUTRAL):

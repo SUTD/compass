@@ -112,11 +112,12 @@ type *type::get_instance(type *t)
 
 	if(t == NULL) return NULL;
 	//assert(t->to_string()!="");
+    //unordered_set<type *, type::type_hash, type::type_eq>::iterator it = instances.find(t);
     unordered_set<type *>::iterator it = instances.find(t);
     if (it != instances.end()) {
         if(!in_serialization()) delete t;
         else unused_types.insert(t);
-        return *it;
+        return it;
     }
 
 

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yufeng/research/others/compass/mistral
+CMAKE_SOURCE_DIR = /home/lijiaying/Research/GitHub/compass/mistral
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yufeng/research/others/compass/mistral/build
+CMAKE_BINARY_DIR = /home/lijiaying/Research/GitHub/compass/mistral/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yufeng/research/others/compass/mistral/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yufeng/research/others/compass/mistral/build/CMakeFiles /home/yufeng/research/others/compass/mistral/build/ui/CMakeFiles/progress.marks
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 ui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yufeng/research/others/compass/mistral/build/CMakeFiles 0
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles /home/lijiaying/Research/GitHub/compass/mistral/build/ui/CMakeFiles/progress.marks
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 ui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 ui/clean
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 ui/clean
 .PHONY : clean
 
 # The main clean target
@@ -85,22 +85,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 ui/preinstall
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 ui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 ui/preinstall
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 ui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yufeng/research/others/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ui/CMakeFiles/mistral_ui.dir/rule:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 ui/CMakeFiles/mistral_ui.dir/rule
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 ui/CMakeFiles/mistral_ui.dir/rule
 .PHONY : ui/CMakeFiles/mistral_ui.dir/rule
 
 # Convenience name for target.
@@ -109,22 +109,22 @@ mistral_ui: ui/CMakeFiles/mistral_ui.dir/rule
 
 # fast build rule for target.
 mistral_ui/fast:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f ui/CMakeFiles/mistral_ui.dir/build.make ui/CMakeFiles/mistral_ui.dir/build
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f ui/CMakeFiles/mistral_ui.dir/build.make ui/CMakeFiles/mistral_ui.dir/build
 .PHONY : mistral_ui/fast
 
 # target to build an object file
 src/solver-ui.o:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f ui/CMakeFiles/mistral_ui.dir/build.make ui/CMakeFiles/mistral_ui.dir/src/solver-ui.o
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f ui/CMakeFiles/mistral_ui.dir/build.make ui/CMakeFiles/mistral_ui.dir/src/solver-ui.o
 .PHONY : src/solver-ui.o
 
 # target to preprocess a source file
 src/solver-ui.i:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f ui/CMakeFiles/mistral_ui.dir/build.make ui/CMakeFiles/mistral_ui.dir/src/solver-ui.i
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f ui/CMakeFiles/mistral_ui.dir/build.make ui/CMakeFiles/mistral_ui.dir/src/solver-ui.i
 .PHONY : src/solver-ui.i
 
 # target to generate assembly for a file
 src/solver-ui.s:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f ui/CMakeFiles/mistral_ui.dir/build.make ui/CMakeFiles/mistral_ui.dir/src/solver-ui.s
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f ui/CMakeFiles/mistral_ui.dir/build.make ui/CMakeFiles/mistral_ui.dir/src/solver-ui.s
 .PHONY : src/solver-ui.s
 
 # Help Target
@@ -150,6 +150,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yufeng/research/others/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

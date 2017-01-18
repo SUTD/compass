@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yufeng/research/others/compass/mistral
+CMAKE_SOURCE_DIR = /home/lijiaying/Research/GitHub/compass/mistral
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yufeng/research/others/compass/mistral/build
+CMAKE_BINARY_DIR = /home/lijiaying/Research/GitHub/compass/mistral/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yufeng/research/others/compass/mistral/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yufeng/research/others/compass/mistral/build/CMakeFiles /home/yufeng/research/others/compass/mistral/build/parser/CMakeFiles/progress.marks
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 parser/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yufeng/research/others/compass/mistral/build/CMakeFiles 0
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles /home/lijiaying/Research/GitHub/compass/mistral/build/parser/CMakeFiles/progress.marks
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 parser/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 parser/clean
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 parser/clean
 .PHONY : clean
 
 # The main clean target
@@ -85,22 +85,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 parser/preinstall
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 parser/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 parser/preinstall
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 parser/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yufeng/research/others/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 parser/CMakeFiles/parser.dir/rule:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 parser/CMakeFiles/parser.dir/rule
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 parser/CMakeFiles/parser.dir/rule
 .PHONY : parser/CMakeFiles/parser.dir/rule
 
 # Convenience name for target.
@@ -109,52 +109,52 @@ parser: parser/CMakeFiles/parser.dir/rule
 
 # fast build rule for target.
 parser/fast:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/build
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/build
 .PHONY : parser/fast
 
 # target to build an object file
 lexer.o:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/lexer.o
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/lexer.o
 .PHONY : lexer.o
 
 # target to preprocess a source file
 lexer.i:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/lexer.i
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/lexer.i
 .PHONY : lexer.i
 
 # target to generate assembly for a file
 lexer.s:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/lexer.s
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/lexer.s
 .PHONY : lexer.s
 
 # target to build an object file
 mistral-parser.o:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/mistral-parser.o
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/mistral-parser.o
 .PHONY : mistral-parser.o
 
 # target to preprocess a source file
 mistral-parser.i:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/mistral-parser.i
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/mistral-parser.i
 .PHONY : mistral-parser.i
 
 # target to generate assembly for a file
 mistral-parser.s:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/mistral-parser.s
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/mistral-parser.s
 .PHONY : mistral-parser.s
 
 # target to build an object file
 parser.o:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/parser.o
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/parser.o
 .PHONY : parser.o
 
 # target to preprocess a source file
 parser.i:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/parser.i
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/parser.i
 .PHONY : parser.i
 
 # target to generate assembly for a file
 parser.s:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/parser.s
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f parser/CMakeFiles/parser.dir/build.make parser/CMakeFiles/parser.dir/parser.s
 .PHONY : parser.s
 
 # Help Target
@@ -186,6 +186,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yufeng/research/others/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

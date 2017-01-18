@@ -23,8 +23,8 @@ smtparser/CMakeFiles/smtparser.dir/smt-parser.o
  .././term/VariableTerm.h
  .././term/term-shared.h
  .././term/term.h
- /home/yufeng/research/others/compass/mistral/smtparser/smt-parser-defs.h
- /home/yufeng/research/others/compass/mistral/smtparser/smt-parser.cpp
+ /home/lijiaying/Research/GitHub/compass/mistral/smtparser/smt-parser-defs.h
+ /home/lijiaying/Research/GitHub/compass/mistral/smtparser/smt-parser.cpp
  smtparser/smtparser.hpp
 smtparser/CMakeFiles/smtparser.dir/smtlexer.o
  .././VarMap.h
@@ -49,8 +49,8 @@ smtparser/CMakeFiles/smtparser.dir/smtlexer.o
  .././term/VariableTerm.h
  .././term/term-shared.h
  .././term/term.h
- /home/yufeng/research/others/compass/mistral/build/smtparser/smtlexer.cpp
- /home/yufeng/research/others/compass/mistral/build/smtparser/smtparser.hpp
+ /home/lijiaying/Research/GitHub/compass/mistral/build/smtparser/smtlexer.cpp
+ /home/lijiaying/Research/GitHub/compass/mistral/build/smtparser/smtparser.hpp
 smtparser/CMakeFiles/smtparser.dir/smtparser.o
  .././VarMap.h
  .././cnode/BooleanVar.h
@@ -74,4 +74,4 @@ smtparser/CMakeFiles/smtparser.dir/smtparser.o
  .././term/VariableTerm.h
  .././term/term-shared.h
  .././term/term.h
- /home/yufeng/research/others/compass/mistral/build/smtparser/smtparser.cpp
+ /home/lijiaying/Research/GitHub/compass/mistral/build/smtparser/smtparser.cpp

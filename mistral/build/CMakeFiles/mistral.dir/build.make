@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yufeng/research/others/compass/mistral
+CMAKE_SOURCE_DIR = /home/lijiaying/Research/GitHub/compass/mistral
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yufeng/research/others/compass/mistral/build
+CMAKE_BINARY_DIR = /home/lijiaying/Research/GitHub/compass/mistral/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mistral.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/mistral.dir/flags.make
 
 CMakeFiles/mistral.dir/mistral-util.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/mistral-util.o: ../mistral-util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/mistral-util.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/mistral-util.o -c /home/yufeng/research/others/compass/mistral/mistral-util.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/mistral-util.o -c /home/lijiaying/Research/GitHub/compass/mistral/mistral-util.cpp
 
 CMakeFiles/mistral.dir/mistral-util.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/mistral-util.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/mistral-util.cpp > CMakeFiles/mistral.dir/mistral-util.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/mistral-util.cpp > CMakeFiles/mistral.dir/mistral-util.i
 
 CMakeFiles/mistral.dir/mistral-util.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/mistral-util.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/mistral-util.cpp -o CMakeFiles/mistral.dir/mistral-util.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/mistral-util.cpp -o CMakeFiles/mistral.dir/mistral-util.s
 
 CMakeFiles/mistral.dir/mistral-util.o.requires:
 .PHONY : CMakeFiles/mistral.dir/mistral-util.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/mistral.dir/mistral-util.o.provides.build: CMakeFiles/mistral.dir/mis
 
 CMakeFiles/mistral.dir/ConstraintSolver.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/ConstraintSolver.o: ../ConstraintSolver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/ConstraintSolver.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/ConstraintSolver.o -c /home/yufeng/research/others/compass/mistral/ConstraintSolver.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/ConstraintSolver.o -c /home/lijiaying/Research/GitHub/compass/mistral/ConstraintSolver.cpp
 
 CMakeFiles/mistral.dir/ConstraintSolver.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/ConstraintSolver.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/ConstraintSolver.cpp > CMakeFiles/mistral.dir/ConstraintSolver.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/ConstraintSolver.cpp > CMakeFiles/mistral.dir/ConstraintSolver.i
 
 CMakeFiles/mistral.dir/ConstraintSolver.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/ConstraintSolver.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/ConstraintSolver.cpp -o CMakeFiles/mistral.dir/ConstraintSolver.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/ConstraintSolver.cpp -o CMakeFiles/mistral.dir/ConstraintSolver.s
 
 CMakeFiles/mistral.dir/ConstraintSolver.o.requires:
 .PHONY : CMakeFiles/mistral.dir/ConstraintSolver.o.requires
@@ -97,17 +97,17 @@ CMakeFiles/mistral.dir/ConstraintSolver.o.provides.build: CMakeFiles/mistral.dir
 
 CMakeFiles/mistral.dir/mistral.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/mistral.o: ../mistral.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/mistral.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/mistral.o -c /home/yufeng/research/others/compass/mistral/mistral.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/mistral.o -c /home/lijiaying/Research/GitHub/compass/mistral/mistral.cpp
 
 CMakeFiles/mistral.dir/mistral.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/mistral.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/mistral.cpp > CMakeFiles/mistral.dir/mistral.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/mistral.cpp > CMakeFiles/mistral.dir/mistral.i
 
 CMakeFiles/mistral.dir/mistral.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/mistral.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/mistral.cpp -o CMakeFiles/mistral.dir/mistral.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/mistral.cpp -o CMakeFiles/mistral.dir/mistral.s
 
 CMakeFiles/mistral.dir/mistral.o.requires:
 .PHONY : CMakeFiles/mistral.dir/mistral.o.requires
@@ -120,17 +120,17 @@ CMakeFiles/mistral.dir/mistral.o.provides.build: CMakeFiles/mistral.dir/mistral.
 
 CMakeFiles/mistral.dir/Constraint.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/Constraint.o: ../Constraint.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/Constraint.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/Constraint.o -c /home/yufeng/research/others/compass/mistral/Constraint.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/Constraint.o -c /home/lijiaying/Research/GitHub/compass/mistral/Constraint.cpp
 
 CMakeFiles/mistral.dir/Constraint.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/Constraint.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/Constraint.cpp > CMakeFiles/mistral.dir/Constraint.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/Constraint.cpp > CMakeFiles/mistral.dir/Constraint.i
 
 CMakeFiles/mistral.dir/Constraint.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/Constraint.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/Constraint.cpp -o CMakeFiles/mistral.dir/Constraint.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/Constraint.cpp -o CMakeFiles/mistral.dir/Constraint.s
 
 CMakeFiles/mistral.dir/Constraint.o.requires:
 .PHONY : CMakeFiles/mistral.dir/Constraint.o.requires
@@ -143,17 +143,17 @@ CMakeFiles/mistral.dir/Constraint.o.provides.build: CMakeFiles/mistral.dir/Const
 
 CMakeFiles/mistral.dir/VarMap.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/VarMap.o: ../VarMap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/VarMap.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/VarMap.o -c /home/yufeng/research/others/compass/mistral/VarMap.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/VarMap.o -c /home/lijiaying/Research/GitHub/compass/mistral/VarMap.cpp
 
 CMakeFiles/mistral.dir/VarMap.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/VarMap.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/VarMap.cpp > CMakeFiles/mistral.dir/VarMap.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/VarMap.cpp > CMakeFiles/mistral.dir/VarMap.i
 
 CMakeFiles/mistral.dir/VarMap.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/VarMap.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/VarMap.cpp -o CMakeFiles/mistral.dir/VarMap.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/VarMap.cpp -o CMakeFiles/mistral.dir/VarMap.s
 
 CMakeFiles/mistral.dir/VarMap.o.requires:
 .PHONY : CMakeFiles/mistral.dir/VarMap.o.requires
@@ -166,17 +166,17 @@ CMakeFiles/mistral.dir/VarMap.o.provides.build: CMakeFiles/mistral.dir/VarMap.o
 
 CMakeFiles/mistral.dir/cnode/False.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/cnode/False.o: ../cnode/False.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/cnode/False.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/False.o -c /home/yufeng/research/others/compass/mistral/cnode/False.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/False.o -c /home/lijiaying/Research/GitHub/compass/mistral/cnode/False.cpp
 
 CMakeFiles/mistral.dir/cnode/False.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/cnode/False.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/cnode/False.cpp > CMakeFiles/mistral.dir/cnode/False.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/cnode/False.cpp > CMakeFiles/mistral.dir/cnode/False.i
 
 CMakeFiles/mistral.dir/cnode/False.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/cnode/False.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/cnode/False.cpp -o CMakeFiles/mistral.dir/cnode/False.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/cnode/False.cpp -o CMakeFiles/mistral.dir/cnode/False.s
 
 CMakeFiles/mistral.dir/cnode/False.o.requires:
 .PHONY : CMakeFiles/mistral.dir/cnode/False.o.requires
@@ -189,17 +189,17 @@ CMakeFiles/mistral.dir/cnode/False.o.provides.build: CMakeFiles/mistral.dir/cnod
 
 CMakeFiles/mistral.dir/cnode/CNode.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/cnode/CNode.o: ../cnode/CNode.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/cnode/CNode.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/CNode.o -c /home/yufeng/research/others/compass/mistral/cnode/CNode.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/CNode.o -c /home/lijiaying/Research/GitHub/compass/mistral/cnode/CNode.cpp
 
 CMakeFiles/mistral.dir/cnode/CNode.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/cnode/CNode.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/cnode/CNode.cpp > CMakeFiles/mistral.dir/cnode/CNode.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/cnode/CNode.cpp > CMakeFiles/mistral.dir/cnode/CNode.i
 
 CMakeFiles/mistral.dir/cnode/CNode.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/cnode/CNode.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/cnode/CNode.cpp -o CMakeFiles/mistral.dir/cnode/CNode.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/cnode/CNode.cpp -o CMakeFiles/mistral.dir/cnode/CNode.s
 
 CMakeFiles/mistral.dir/cnode/CNode.o.requires:
 .PHONY : CMakeFiles/mistral.dir/cnode/CNode.o.requires
@@ -212,17 +212,17 @@ CMakeFiles/mistral.dir/cnode/CNode.o.provides.build: CMakeFiles/mistral.dir/cnod
 
 CMakeFiles/mistral.dir/cnode/BooleanVar.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/cnode/BooleanVar.o: ../cnode/BooleanVar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/cnode/BooleanVar.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/BooleanVar.o -c /home/yufeng/research/others/compass/mistral/cnode/BooleanVar.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/BooleanVar.o -c /home/lijiaying/Research/GitHub/compass/mistral/cnode/BooleanVar.cpp
 
 CMakeFiles/mistral.dir/cnode/BooleanVar.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/cnode/BooleanVar.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/cnode/BooleanVar.cpp > CMakeFiles/mistral.dir/cnode/BooleanVar.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/cnode/BooleanVar.cpp > CMakeFiles/mistral.dir/cnode/BooleanVar.i
 
 CMakeFiles/mistral.dir/cnode/BooleanVar.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/cnode/BooleanVar.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/cnode/BooleanVar.cpp -o CMakeFiles/mistral.dir/cnode/BooleanVar.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/cnode/BooleanVar.cpp -o CMakeFiles/mistral.dir/cnode/BooleanVar.s
 
 CMakeFiles/mistral.dir/cnode/BooleanVar.o.requires:
 .PHONY : CMakeFiles/mistral.dir/cnode/BooleanVar.o.requires
@@ -235,17 +235,17 @@ CMakeFiles/mistral.dir/cnode/BooleanVar.o.provides.build: CMakeFiles/mistral.dir
 
 CMakeFiles/mistral.dir/cnode/True.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/cnode/True.o: ../cnode/True.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/cnode/True.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/True.o -c /home/yufeng/research/others/compass/mistral/cnode/True.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/True.o -c /home/lijiaying/Research/GitHub/compass/mistral/cnode/True.cpp
 
 CMakeFiles/mistral.dir/cnode/True.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/cnode/True.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/cnode/True.cpp > CMakeFiles/mistral.dir/cnode/True.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/cnode/True.cpp > CMakeFiles/mistral.dir/cnode/True.i
 
 CMakeFiles/mistral.dir/cnode/True.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/cnode/True.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/cnode/True.cpp -o CMakeFiles/mistral.dir/cnode/True.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/cnode/True.cpp -o CMakeFiles/mistral.dir/cnode/True.s
 
 CMakeFiles/mistral.dir/cnode/True.o.requires:
 .PHONY : CMakeFiles/mistral.dir/cnode/True.o.requires
@@ -258,17 +258,17 @@ CMakeFiles/mistral.dir/cnode/True.o.provides.build: CMakeFiles/mistral.dir/cnode
 
 CMakeFiles/mistral.dir/cnode/Leaf.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/cnode/Leaf.o: ../cnode/Leaf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/cnode/Leaf.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/Leaf.o -c /home/yufeng/research/others/compass/mistral/cnode/Leaf.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/Leaf.o -c /home/lijiaying/Research/GitHub/compass/mistral/cnode/Leaf.cpp
 
 CMakeFiles/mistral.dir/cnode/Leaf.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/cnode/Leaf.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/cnode/Leaf.cpp > CMakeFiles/mistral.dir/cnode/Leaf.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/cnode/Leaf.cpp > CMakeFiles/mistral.dir/cnode/Leaf.i
 
 CMakeFiles/mistral.dir/cnode/Leaf.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/cnode/Leaf.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/cnode/Leaf.cpp -o CMakeFiles/mistral.dir/cnode/Leaf.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/cnode/Leaf.cpp -o CMakeFiles/mistral.dir/cnode/Leaf.s
 
 CMakeFiles/mistral.dir/cnode/Leaf.o.requires:
 .PHONY : CMakeFiles/mistral.dir/cnode/Leaf.o.requires
@@ -281,17 +281,17 @@ CMakeFiles/mistral.dir/cnode/Leaf.o.provides.build: CMakeFiles/mistral.dir/cnode
 
 CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.o: ../cnode/QuantifiedLeaf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.o -c /home/yufeng/research/others/compass/mistral/cnode/QuantifiedLeaf.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.o -c /home/lijiaying/Research/GitHub/compass/mistral/cnode/QuantifiedLeaf.cpp
 
 CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/cnode/QuantifiedLeaf.cpp > CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/cnode/QuantifiedLeaf.cpp > CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.i
 
 CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/cnode/QuantifiedLeaf.cpp -o CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/cnode/QuantifiedLeaf.cpp -o CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.s
 
 CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.o.requires:
 .PHONY : CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.o.requires
@@ -304,17 +304,17 @@ CMakeFiles/mistral.dir/cnode/QuantifiedLeaf.o.provides.build: CMakeFiles/mistral
 
 CMakeFiles/mistral.dir/cnode/ModLeaf.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/cnode/ModLeaf.o: ../cnode/ModLeaf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/cnode/ModLeaf.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/ModLeaf.o -c /home/yufeng/research/others/compass/mistral/cnode/ModLeaf.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/ModLeaf.o -c /home/lijiaying/Research/GitHub/compass/mistral/cnode/ModLeaf.cpp
 
 CMakeFiles/mistral.dir/cnode/ModLeaf.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/cnode/ModLeaf.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/cnode/ModLeaf.cpp > CMakeFiles/mistral.dir/cnode/ModLeaf.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/cnode/ModLeaf.cpp > CMakeFiles/mistral.dir/cnode/ModLeaf.i
 
 CMakeFiles/mistral.dir/cnode/ModLeaf.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/cnode/ModLeaf.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/cnode/ModLeaf.cpp -o CMakeFiles/mistral.dir/cnode/ModLeaf.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/cnode/ModLeaf.cpp -o CMakeFiles/mistral.dir/cnode/ModLeaf.s
 
 CMakeFiles/mistral.dir/cnode/ModLeaf.o.requires:
 .PHONY : CMakeFiles/mistral.dir/cnode/ModLeaf.o.requires
@@ -327,17 +327,17 @@ CMakeFiles/mistral.dir/cnode/ModLeaf.o.provides.build: CMakeFiles/mistral.dir/cn
 
 CMakeFiles/mistral.dir/cnode/EqLeaf.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/cnode/EqLeaf.o: ../cnode/EqLeaf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/cnode/EqLeaf.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/EqLeaf.o -c /home/yufeng/research/others/compass/mistral/cnode/EqLeaf.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/EqLeaf.o -c /home/lijiaying/Research/GitHub/compass/mistral/cnode/EqLeaf.cpp
 
 CMakeFiles/mistral.dir/cnode/EqLeaf.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/cnode/EqLeaf.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/cnode/EqLeaf.cpp > CMakeFiles/mistral.dir/cnode/EqLeaf.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/cnode/EqLeaf.cpp > CMakeFiles/mistral.dir/cnode/EqLeaf.i
 
 CMakeFiles/mistral.dir/cnode/EqLeaf.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/cnode/EqLeaf.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/cnode/EqLeaf.cpp -o CMakeFiles/mistral.dir/cnode/EqLeaf.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/cnode/EqLeaf.cpp -o CMakeFiles/mistral.dir/cnode/EqLeaf.s
 
 CMakeFiles/mistral.dir/cnode/EqLeaf.o.requires:
 .PHONY : CMakeFiles/mistral.dir/cnode/EqLeaf.o.requires
@@ -350,17 +350,17 @@ CMakeFiles/mistral.dir/cnode/EqLeaf.o.provides.build: CMakeFiles/mistral.dir/cno
 
 CMakeFiles/mistral.dir/cnode/ILPLeaf.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/cnode/ILPLeaf.o: ../cnode/ILPLeaf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/cnode/ILPLeaf.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/ILPLeaf.o -c /home/yufeng/research/others/compass/mistral/cnode/ILPLeaf.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/ILPLeaf.o -c /home/lijiaying/Research/GitHub/compass/mistral/cnode/ILPLeaf.cpp
 
 CMakeFiles/mistral.dir/cnode/ILPLeaf.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/cnode/ILPLeaf.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/cnode/ILPLeaf.cpp > CMakeFiles/mistral.dir/cnode/ILPLeaf.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/cnode/ILPLeaf.cpp > CMakeFiles/mistral.dir/cnode/ILPLeaf.i
 
 CMakeFiles/mistral.dir/cnode/ILPLeaf.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/cnode/ILPLeaf.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/cnode/ILPLeaf.cpp -o CMakeFiles/mistral.dir/cnode/ILPLeaf.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/cnode/ILPLeaf.cpp -o CMakeFiles/mistral.dir/cnode/ILPLeaf.s
 
 CMakeFiles/mistral.dir/cnode/ILPLeaf.o.requires:
 .PHONY : CMakeFiles/mistral.dir/cnode/ILPLeaf.o.requires
@@ -373,17 +373,17 @@ CMakeFiles/mistral.dir/cnode/ILPLeaf.o.provides.build: CMakeFiles/mistral.dir/cn
 
 CMakeFiles/mistral.dir/cnode/Connective.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/cnode/Connective.o: ../cnode/Connective.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/cnode/Connective.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/Connective.o -c /home/yufeng/research/others/compass/mistral/cnode/Connective.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/cnode/Connective.o -c /home/lijiaying/Research/GitHub/compass/mistral/cnode/Connective.cpp
 
 CMakeFiles/mistral.dir/cnode/Connective.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/cnode/Connective.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/cnode/Connective.cpp > CMakeFiles/mistral.dir/cnode/Connective.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/cnode/Connective.cpp > CMakeFiles/mistral.dir/cnode/Connective.i
 
 CMakeFiles/mistral.dir/cnode/Connective.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/cnode/Connective.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/cnode/Connective.cpp -o CMakeFiles/mistral.dir/cnode/Connective.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/cnode/Connective.cpp -o CMakeFiles/mistral.dir/cnode/Connective.s
 
 CMakeFiles/mistral.dir/cnode/Connective.o.requires:
 .PHONY : CMakeFiles/mistral.dir/cnode/Connective.o.requires
@@ -396,17 +396,17 @@ CMakeFiles/mistral.dir/cnode/Connective.o.provides.build: CMakeFiles/mistral.dir
 
 CMakeFiles/mistral.dir/elimination/Cooper.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/elimination/Cooper.o: ../elimination/Cooper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/elimination/Cooper.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/elimination/Cooper.o -c /home/yufeng/research/others/compass/mistral/elimination/Cooper.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/elimination/Cooper.o -c /home/lijiaying/Research/GitHub/compass/mistral/elimination/Cooper.cpp
 
 CMakeFiles/mistral.dir/elimination/Cooper.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/elimination/Cooper.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/elimination/Cooper.cpp > CMakeFiles/mistral.dir/elimination/Cooper.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/elimination/Cooper.cpp > CMakeFiles/mistral.dir/elimination/Cooper.i
 
 CMakeFiles/mistral.dir/elimination/Cooper.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/elimination/Cooper.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/elimination/Cooper.cpp -o CMakeFiles/mistral.dir/elimination/Cooper.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/elimination/Cooper.cpp -o CMakeFiles/mistral.dir/elimination/Cooper.s
 
 CMakeFiles/mistral.dir/elimination/Cooper.o.requires:
 .PHONY : CMakeFiles/mistral.dir/elimination/Cooper.o.requires
@@ -419,17 +419,17 @@ CMakeFiles/mistral.dir/elimination/Cooper.o.provides.build: CMakeFiles/mistral.d
 
 CMakeFiles/mistral.dir/elimination/ExistentialEliminator.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/elimination/ExistentialEliminator.o: ../elimination/ExistentialEliminator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/elimination/ExistentialEliminator.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/elimination/ExistentialEliminator.o -c /home/yufeng/research/others/compass/mistral/elimination/ExistentialEliminator.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/elimination/ExistentialEliminator.o -c /home/lijiaying/Research/GitHub/compass/mistral/elimination/ExistentialEliminator.cpp
 
 CMakeFiles/mistral.dir/elimination/ExistentialEliminator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/elimination/ExistentialEliminator.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/elimination/ExistentialEliminator.cpp > CMakeFiles/mistral.dir/elimination/ExistentialEliminator.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/elimination/ExistentialEliminator.cpp > CMakeFiles/mistral.dir/elimination/ExistentialEliminator.i
 
 CMakeFiles/mistral.dir/elimination/ExistentialEliminator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/elimination/ExistentialEliminator.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/elimination/ExistentialEliminator.cpp -o CMakeFiles/mistral.dir/elimination/ExistentialEliminator.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/elimination/ExistentialEliminator.cpp -o CMakeFiles/mistral.dir/elimination/ExistentialEliminator.s
 
 CMakeFiles/mistral.dir/elimination/ExistentialEliminator.o.requires:
 .PHONY : CMakeFiles/mistral.dir/elimination/ExistentialEliminator.o.requires
@@ -442,17 +442,17 @@ CMakeFiles/mistral.dir/elimination/ExistentialEliminator.o.provides.build: CMake
 
 CMakeFiles/mistral.dir/numeric-lib/bignum.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/numeric-lib/bignum.o: ../numeric-lib/bignum.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/numeric-lib/bignum.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/numeric-lib/bignum.o -c /home/yufeng/research/others/compass/mistral/numeric-lib/bignum.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/numeric-lib/bignum.o -c /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/bignum.cpp
 
 CMakeFiles/mistral.dir/numeric-lib/bignum.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/numeric-lib/bignum.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/numeric-lib/bignum.cpp > CMakeFiles/mistral.dir/numeric-lib/bignum.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/bignum.cpp > CMakeFiles/mistral.dir/numeric-lib/bignum.i
 
 CMakeFiles/mistral.dir/numeric-lib/bignum.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/numeric-lib/bignum.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/numeric-lib/bignum.cpp -o CMakeFiles/mistral.dir/numeric-lib/bignum.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/bignum.cpp -o CMakeFiles/mistral.dir/numeric-lib/bignum.s
 
 CMakeFiles/mistral.dir/numeric-lib/bignum.o.requires:
 .PHONY : CMakeFiles/mistral.dir/numeric-lib/bignum.o.requires
@@ -465,17 +465,17 @@ CMakeFiles/mistral.dir/numeric-lib/bignum.o.provides.build: CMakeFiles/mistral.d
 
 CMakeFiles/mistral.dir/numeric-lib/bigfraction.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/numeric-lib/bigfraction.o: ../numeric-lib/bigfraction.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/numeric-lib/bigfraction.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/numeric-lib/bigfraction.o -c /home/yufeng/research/others/compass/mistral/numeric-lib/bigfraction.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/numeric-lib/bigfraction.o -c /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/bigfraction.cpp
 
 CMakeFiles/mistral.dir/numeric-lib/bigfraction.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/numeric-lib/bigfraction.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/numeric-lib/bigfraction.cpp > CMakeFiles/mistral.dir/numeric-lib/bigfraction.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/bigfraction.cpp > CMakeFiles/mistral.dir/numeric-lib/bigfraction.i
 
 CMakeFiles/mistral.dir/numeric-lib/bigfraction.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/numeric-lib/bigfraction.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/numeric-lib/bigfraction.cpp -o CMakeFiles/mistral.dir/numeric-lib/bigfraction.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/bigfraction.cpp -o CMakeFiles/mistral.dir/numeric-lib/bigfraction.s
 
 CMakeFiles/mistral.dir/numeric-lib/bigfraction.o.requires:
 .PHONY : CMakeFiles/mistral.dir/numeric-lib/bigfraction.o.requires
@@ -488,17 +488,17 @@ CMakeFiles/mistral.dir/numeric-lib/bigfraction.o.provides.build: CMakeFiles/mist
 
 CMakeFiles/mistral.dir/numeric-lib/matrix.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/numeric-lib/matrix.o: ../numeric-lib/matrix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/numeric-lib/matrix.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/numeric-lib/matrix.o -c /home/yufeng/research/others/compass/mistral/numeric-lib/matrix.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/numeric-lib/matrix.o -c /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/matrix.cpp
 
 CMakeFiles/mistral.dir/numeric-lib/matrix.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/numeric-lib/matrix.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/numeric-lib/matrix.cpp > CMakeFiles/mistral.dir/numeric-lib/matrix.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/matrix.cpp > CMakeFiles/mistral.dir/numeric-lib/matrix.i
 
 CMakeFiles/mistral.dir/numeric-lib/matrix.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/numeric-lib/matrix.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/numeric-lib/matrix.cpp -o CMakeFiles/mistral.dir/numeric-lib/matrix.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/matrix.cpp -o CMakeFiles/mistral.dir/numeric-lib/matrix.s
 
 CMakeFiles/mistral.dir/numeric-lib/matrix.o.requires:
 .PHONY : CMakeFiles/mistral.dir/numeric-lib/matrix.o.requires
@@ -511,17 +511,17 @@ CMakeFiles/mistral.dir/numeric-lib/matrix.o.provides.build: CMakeFiles/mistral.d
 
 CMakeFiles/mistral.dir/numeric-lib/hermite.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/numeric-lib/hermite.o: ../numeric-lib/hermite.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/numeric-lib/hermite.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/numeric-lib/hermite.o -c /home/yufeng/research/others/compass/mistral/numeric-lib/hermite.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/numeric-lib/hermite.o -c /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/hermite.cpp
 
 CMakeFiles/mistral.dir/numeric-lib/hermite.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/numeric-lib/hermite.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/numeric-lib/hermite.cpp > CMakeFiles/mistral.dir/numeric-lib/hermite.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/hermite.cpp > CMakeFiles/mistral.dir/numeric-lib/hermite.i
 
 CMakeFiles/mistral.dir/numeric-lib/hermite.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/numeric-lib/hermite.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/numeric-lib/hermite.cpp -o CMakeFiles/mistral.dir/numeric-lib/hermite.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/hermite.cpp -o CMakeFiles/mistral.dir/numeric-lib/hermite.s
 
 CMakeFiles/mistral.dir/numeric-lib/hermite.o.requires:
 .PHONY : CMakeFiles/mistral.dir/numeric-lib/hermite.o.requires
@@ -534,17 +534,17 @@ CMakeFiles/mistral.dir/numeric-lib/hermite.o.provides.build: CMakeFiles/mistral.
 
 CMakeFiles/mistral.dir/numeric-lib/slack_matrix.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/numeric-lib/slack_matrix.o: ../numeric-lib/slack_matrix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/numeric-lib/slack_matrix.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/numeric-lib/slack_matrix.o -c /home/yufeng/research/others/compass/mistral/numeric-lib/slack_matrix.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/numeric-lib/slack_matrix.o -c /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/slack_matrix.cpp
 
 CMakeFiles/mistral.dir/numeric-lib/slack_matrix.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/numeric-lib/slack_matrix.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/numeric-lib/slack_matrix.cpp > CMakeFiles/mistral.dir/numeric-lib/slack_matrix.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/slack_matrix.cpp > CMakeFiles/mistral.dir/numeric-lib/slack_matrix.i
 
 CMakeFiles/mistral.dir/numeric-lib/slack_matrix.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/numeric-lib/slack_matrix.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/numeric-lib/slack_matrix.cpp -o CMakeFiles/mistral.dir/numeric-lib/slack_matrix.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/numeric-lib/slack_matrix.cpp -o CMakeFiles/mistral.dir/numeric-lib/slack_matrix.s
 
 CMakeFiles/mistral.dir/numeric-lib/slack_matrix.o.requires:
 .PHONY : CMakeFiles/mistral.dir/numeric-lib/slack_matrix.o.requires
@@ -557,17 +557,17 @@ CMakeFiles/mistral.dir/numeric-lib/slack_matrix.o.provides.build: CMakeFiles/mis
 
 CMakeFiles/mistral.dir/sat-solver/SatSolver.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/sat-solver/SatSolver.o: ../sat-solver/SatSolver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/sat-solver/SatSolver.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/sat-solver/SatSolver.o -c /home/yufeng/research/others/compass/mistral/sat-solver/SatSolver.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/sat-solver/SatSolver.o -c /home/lijiaying/Research/GitHub/compass/mistral/sat-solver/SatSolver.cpp
 
 CMakeFiles/mistral.dir/sat-solver/SatSolver.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/sat-solver/SatSolver.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/sat-solver/SatSolver.cpp > CMakeFiles/mistral.dir/sat-solver/SatSolver.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/sat-solver/SatSolver.cpp > CMakeFiles/mistral.dir/sat-solver/SatSolver.i
 
 CMakeFiles/mistral.dir/sat-solver/SatSolver.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/sat-solver/SatSolver.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/sat-solver/SatSolver.cpp -o CMakeFiles/mistral.dir/sat-solver/SatSolver.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/sat-solver/SatSolver.cpp -o CMakeFiles/mistral.dir/sat-solver/SatSolver.s
 
 CMakeFiles/mistral.dir/sat-solver/SatSolver.o.requires:
 .PHONY : CMakeFiles/mistral.dir/sat-solver/SatSolver.o.requires
@@ -580,17 +580,17 @@ CMakeFiles/mistral.dir/sat-solver/SatSolver.o.provides.build: CMakeFiles/mistral
 
 CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.o: ../sat-solver/SkeletonSolver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.o -c /home/yufeng/research/others/compass/mistral/sat-solver/SkeletonSolver.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.o -c /home/lijiaying/Research/GitHub/compass/mistral/sat-solver/SkeletonSolver.cpp
 
 CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/sat-solver/SkeletonSolver.cpp > CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/sat-solver/SkeletonSolver.cpp > CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.i
 
 CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/sat-solver/SkeletonSolver.cpp -o CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/sat-solver/SkeletonSolver.cpp -o CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.s
 
 CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.o.requires:
 .PHONY : CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.o.requires
@@ -603,17 +603,17 @@ CMakeFiles/mistral.dir/sat-solver/SkeletonSolver.o.provides.build: CMakeFiles/mi
 
 CMakeFiles/mistral.dir/solver/Clause.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/Clause.o: ../solver/Clause.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/Clause.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Clause.o -c /home/yufeng/research/others/compass/mistral/solver/Clause.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Clause.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/Clause.cpp
 
 CMakeFiles/mistral.dir/solver/Clause.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/Clause.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/Clause.cpp > CMakeFiles/mistral.dir/solver/Clause.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/Clause.cpp > CMakeFiles/mistral.dir/solver/Clause.i
 
 CMakeFiles/mistral.dir/solver/Clause.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/Clause.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/Clause.cpp -o CMakeFiles/mistral.dir/solver/Clause.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/Clause.cpp -o CMakeFiles/mistral.dir/solver/Clause.s
 
 CMakeFiles/mistral.dir/solver/Clause.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/Clause.o.requires
@@ -626,17 +626,17 @@ CMakeFiles/mistral.dir/solver/Clause.o.provides.build: CMakeFiles/mistral.dir/so
 
 CMakeFiles/mistral.dir/solver/SatValue.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/SatValue.o: ../solver/SatValue.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/SatValue.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/SatValue.o -c /home/yufeng/research/others/compass/mistral/solver/SatValue.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/SatValue.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/SatValue.cpp
 
 CMakeFiles/mistral.dir/solver/SatValue.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/SatValue.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/SatValue.cpp > CMakeFiles/mistral.dir/solver/SatValue.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/SatValue.cpp > CMakeFiles/mistral.dir/solver/SatValue.i
 
 CMakeFiles/mistral.dir/solver/SatValue.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/SatValue.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/SatValue.cpp -o CMakeFiles/mistral.dir/solver/SatValue.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/SatValue.cpp -o CMakeFiles/mistral.dir/solver/SatValue.s
 
 CMakeFiles/mistral.dir/solver/SatValue.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/SatValue.o.requires
@@ -649,17 +649,17 @@ CMakeFiles/mistral.dir/solver/SatValue.o.provides.build: CMakeFiles/mistral.dir/
 
 CMakeFiles/mistral.dir/solver/simplex.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/simplex.o: ../solver/simplex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/simplex.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/simplex.o -c /home/yufeng/research/others/compass/mistral/solver/simplex.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/simplex.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/simplex.cpp
 
 CMakeFiles/mistral.dir/solver/simplex.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/simplex.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/simplex.cpp > CMakeFiles/mistral.dir/solver/simplex.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/simplex.cpp > CMakeFiles/mistral.dir/solver/simplex.i
 
 CMakeFiles/mistral.dir/solver/simplex.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/simplex.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/simplex.cpp -o CMakeFiles/mistral.dir/solver/simplex.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/simplex.cpp -o CMakeFiles/mistral.dir/solver/simplex.s
 
 CMakeFiles/mistral.dir/solver/simplex.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/simplex.o.requires
@@ -672,17 +672,17 @@ CMakeFiles/mistral.dir/solver/simplex.o.provides.build: CMakeFiles/mistral.dir/s
 
 CMakeFiles/mistral.dir/solver/CNF.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/CNF.o: ../solver/CNF.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/CNF.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/CNF.o -c /home/yufeng/research/others/compass/mistral/solver/CNF.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/CNF.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/CNF.cpp
 
 CMakeFiles/mistral.dir/solver/CNF.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/CNF.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/CNF.cpp > CMakeFiles/mistral.dir/solver/CNF.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/CNF.cpp > CMakeFiles/mistral.dir/solver/CNF.i
 
 CMakeFiles/mistral.dir/solver/CNF.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/CNF.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/CNF.cpp -o CMakeFiles/mistral.dir/solver/CNF.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/CNF.cpp -o CMakeFiles/mistral.dir/solver/CNF.s
 
 CMakeFiles/mistral.dir/solver/CNF.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/CNF.o.requires
@@ -695,17 +695,17 @@ CMakeFiles/mistral.dir/solver/CNF.o.provides.build: CMakeFiles/mistral.dir/solve
 
 CMakeFiles/mistral.dir/solver/BooleanAbstractor.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/BooleanAbstractor.o: ../solver/BooleanAbstractor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/BooleanAbstractor.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/BooleanAbstractor.o -c /home/yufeng/research/others/compass/mistral/solver/BooleanAbstractor.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/BooleanAbstractor.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/BooleanAbstractor.cpp
 
 CMakeFiles/mistral.dir/solver/BooleanAbstractor.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/BooleanAbstractor.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/BooleanAbstractor.cpp > CMakeFiles/mistral.dir/solver/BooleanAbstractor.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/BooleanAbstractor.cpp > CMakeFiles/mistral.dir/solver/BooleanAbstractor.i
 
 CMakeFiles/mistral.dir/solver/BooleanAbstractor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/BooleanAbstractor.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/BooleanAbstractor.cpp -o CMakeFiles/mistral.dir/solver/BooleanAbstractor.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/BooleanAbstractor.cpp -o CMakeFiles/mistral.dir/solver/BooleanAbstractor.s
 
 CMakeFiles/mistral.dir/solver/BooleanAbstractor.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/BooleanAbstractor.o.requires
@@ -718,17 +718,17 @@ CMakeFiles/mistral.dir/solver/BooleanAbstractor.o.provides.build: CMakeFiles/mis
 
 CMakeFiles/mistral.dir/solver/MinPrimeImplicant.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/MinPrimeImplicant.o: ../solver/MinPrimeImplicant.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/MinPrimeImplicant.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/MinPrimeImplicant.o -c /home/yufeng/research/others/compass/mistral/solver/MinPrimeImplicant.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/MinPrimeImplicant.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/MinPrimeImplicant.cpp
 
 CMakeFiles/mistral.dir/solver/MinPrimeImplicant.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/MinPrimeImplicant.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/MinPrimeImplicant.cpp > CMakeFiles/mistral.dir/solver/MinPrimeImplicant.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/MinPrimeImplicant.cpp > CMakeFiles/mistral.dir/solver/MinPrimeImplicant.i
 
 CMakeFiles/mistral.dir/solver/MinPrimeImplicant.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/MinPrimeImplicant.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/MinPrimeImplicant.cpp -o CMakeFiles/mistral.dir/solver/MinPrimeImplicant.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/MinPrimeImplicant.cpp -o CMakeFiles/mistral.dir/solver/MinPrimeImplicant.s
 
 CMakeFiles/mistral.dir/solver/MinPrimeImplicant.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/MinPrimeImplicant.o.requires
@@ -741,17 +741,17 @@ CMakeFiles/mistral.dir/solver/MinPrimeImplicant.o.provides.build: CMakeFiles/mis
 
 CMakeFiles/mistral.dir/solver/DPLLSolver.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/DPLLSolver.o: ../solver/DPLLSolver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/DPLLSolver.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/DPLLSolver.o -c /home/yufeng/research/others/compass/mistral/solver/DPLLSolver.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/DPLLSolver.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/DPLLSolver.cpp
 
 CMakeFiles/mistral.dir/solver/DPLLSolver.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/DPLLSolver.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/DPLLSolver.cpp > CMakeFiles/mistral.dir/solver/DPLLSolver.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/DPLLSolver.cpp > CMakeFiles/mistral.dir/solver/DPLLSolver.i
 
 CMakeFiles/mistral.dir/solver/DPLLSolver.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/DPLLSolver.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/DPLLSolver.cpp -o CMakeFiles/mistral.dir/solver/DPLLSolver.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/DPLLSolver.cpp -o CMakeFiles/mistral.dir/solver/DPLLSolver.s
 
 CMakeFiles/mistral.dir/solver/DPLLSolver.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/DPLLSolver.o.requires
@@ -764,17 +764,17 @@ CMakeFiles/mistral.dir/solver/DPLLSolver.o.provides.build: CMakeFiles/mistral.di
 
 CMakeFiles/mistral.dir/solver/InteractionManager.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/InteractionManager.o: ../solver/InteractionManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/InteractionManager.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/InteractionManager.o -c /home/yufeng/research/others/compass/mistral/solver/InteractionManager.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/InteractionManager.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/InteractionManager.cpp
 
 CMakeFiles/mistral.dir/solver/InteractionManager.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/InteractionManager.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/InteractionManager.cpp > CMakeFiles/mistral.dir/solver/InteractionManager.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/InteractionManager.cpp > CMakeFiles/mistral.dir/solver/InteractionManager.i
 
 CMakeFiles/mistral.dir/solver/InteractionManager.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/InteractionManager.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/InteractionManager.cpp -o CMakeFiles/mistral.dir/solver/InteractionManager.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/InteractionManager.cpp -o CMakeFiles/mistral.dir/solver/InteractionManager.s
 
 CMakeFiles/mistral.dir/solver/InteractionManager.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/InteractionManager.o.requires
@@ -787,17 +787,17 @@ CMakeFiles/mistral.dir/solver/InteractionManager.o.provides.build: CMakeFiles/mi
 
 CMakeFiles/mistral.dir/solver/ClauseSolve.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/ClauseSolve.o: ../solver/ClauseSolve.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/ClauseSolve.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/ClauseSolve.o -c /home/yufeng/research/others/compass/mistral/solver/ClauseSolve.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/ClauseSolve.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/ClauseSolve.cpp
 
 CMakeFiles/mistral.dir/solver/ClauseSolve.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/ClauseSolve.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/ClauseSolve.cpp > CMakeFiles/mistral.dir/solver/ClauseSolve.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/ClauseSolve.cpp > CMakeFiles/mistral.dir/solver/ClauseSolve.i
 
 CMakeFiles/mistral.dir/solver/ClauseSolve.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/ClauseSolve.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/ClauseSolve.cpp -o CMakeFiles/mistral.dir/solver/ClauseSolve.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/ClauseSolve.cpp -o CMakeFiles/mistral.dir/solver/ClauseSolve.s
 
 CMakeFiles/mistral.dir/solver/ClauseSolve.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/ClauseSolve.o.requires
@@ -810,17 +810,17 @@ CMakeFiles/mistral.dir/solver/ClauseSolve.o.provides.build: CMakeFiles/mistral.d
 
 CMakeFiles/mistral.dir/solver/Matrix.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/Matrix.o: ../solver/Matrix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/Matrix.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Matrix.o -c /home/yufeng/research/others/compass/mistral/solver/Matrix.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Matrix.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/Matrix.cpp
 
 CMakeFiles/mistral.dir/solver/Matrix.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/Matrix.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/Matrix.cpp > CMakeFiles/mistral.dir/solver/Matrix.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/Matrix.cpp > CMakeFiles/mistral.dir/solver/Matrix.i
 
 CMakeFiles/mistral.dir/solver/Matrix.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/Matrix.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/Matrix.cpp -o CMakeFiles/mistral.dir/solver/Matrix.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/Matrix.cpp -o CMakeFiles/mistral.dir/solver/Matrix.s
 
 CMakeFiles/mistral.dir/solver/Matrix.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/Matrix.o.requires
@@ -833,17 +833,17 @@ CMakeFiles/mistral.dir/solver/Matrix.o.provides.build: CMakeFiles/mistral.dir/so
 
 CMakeFiles/mistral.dir/solver/Equation.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/Equation.o: ../solver/Equation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/Equation.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Equation.o -c /home/yufeng/research/others/compass/mistral/solver/Equation.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Equation.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/Equation.cpp
 
 CMakeFiles/mistral.dir/solver/Equation.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/Equation.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/Equation.cpp > CMakeFiles/mistral.dir/solver/Equation.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/Equation.cpp > CMakeFiles/mistral.dir/solver/Equation.i
 
 CMakeFiles/mistral.dir/solver/Equation.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/Equation.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/Equation.cpp -o CMakeFiles/mistral.dir/solver/Equation.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/Equation.cpp -o CMakeFiles/mistral.dir/solver/Equation.s
 
 CMakeFiles/mistral.dir/solver/Equation.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/Equation.o.requires
@@ -856,17 +856,17 @@ CMakeFiles/mistral.dir/solver/Equation.o.provides.build: CMakeFiles/mistral.dir/
 
 CMakeFiles/mistral.dir/solver/Solver.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/Solver.o: ../solver/Solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/Solver.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Solver.o -c /home/yufeng/research/others/compass/mistral/solver/Solver.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Solver.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/Solver.cpp
 
 CMakeFiles/mistral.dir/solver/Solver.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/Solver.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/Solver.cpp > CMakeFiles/mistral.dir/solver/Solver.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/Solver.cpp > CMakeFiles/mistral.dir/solver/Solver.i
 
 CMakeFiles/mistral.dir/solver/Solver.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/Solver.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/Solver.cpp -o CMakeFiles/mistral.dir/solver/Solver.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/Solver.cpp -o CMakeFiles/mistral.dir/solver/Solver.s
 
 CMakeFiles/mistral.dir/solver/Solver.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/Solver.o.requires
@@ -879,17 +879,17 @@ CMakeFiles/mistral.dir/solver/Solver.o.provides.build: CMakeFiles/mistral.dir/so
 
 CMakeFiles/mistral.dir/solver/NormalForm.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/NormalForm.o: ../solver/NormalForm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/NormalForm.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/NormalForm.o -c /home/yufeng/research/others/compass/mistral/solver/NormalForm.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/NormalForm.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/NormalForm.cpp
 
 CMakeFiles/mistral.dir/solver/NormalForm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/NormalForm.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/NormalForm.cpp > CMakeFiles/mistral.dir/solver/NormalForm.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/NormalForm.cpp > CMakeFiles/mistral.dir/solver/NormalForm.i
 
 CMakeFiles/mistral.dir/solver/NormalForm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/NormalForm.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/NormalForm.cpp -o CMakeFiles/mistral.dir/solver/NormalForm.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/NormalForm.cpp -o CMakeFiles/mistral.dir/solver/NormalForm.s
 
 CMakeFiles/mistral.dir/solver/NormalForm.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/NormalForm.o.requires
@@ -902,17 +902,17 @@ CMakeFiles/mistral.dir/solver/NormalForm.o.provides.build: CMakeFiles/mistral.di
 
 CMakeFiles/mistral.dir/solver/EqualityFinder.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/EqualityFinder.o: ../solver/EqualityFinder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/EqualityFinder.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/EqualityFinder.o -c /home/yufeng/research/others/compass/mistral/solver/EqualityFinder.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/EqualityFinder.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/EqualityFinder.cpp
 
 CMakeFiles/mistral.dir/solver/EqualityFinder.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/EqualityFinder.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/EqualityFinder.cpp > CMakeFiles/mistral.dir/solver/EqualityFinder.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/EqualityFinder.cpp > CMakeFiles/mistral.dir/solver/EqualityFinder.i
 
 CMakeFiles/mistral.dir/solver/EqualityFinder.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/EqualityFinder.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/EqualityFinder.cpp -o CMakeFiles/mistral.dir/solver/EqualityFinder.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/EqualityFinder.cpp -o CMakeFiles/mistral.dir/solver/EqualityFinder.s
 
 CMakeFiles/mistral.dir/solver/EqualityFinder.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/EqualityFinder.o.requires
@@ -925,17 +925,17 @@ CMakeFiles/mistral.dir/solver/EqualityFinder.o.provides.build: CMakeFiles/mistra
 
 CMakeFiles/mistral.dir/solver/Optimizer.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/Optimizer.o: ../solver/Optimizer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/Optimizer.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Optimizer.o -c /home/yufeng/research/others/compass/mistral/solver/Optimizer.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Optimizer.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/Optimizer.cpp
 
 CMakeFiles/mistral.dir/solver/Optimizer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/Optimizer.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/Optimizer.cpp > CMakeFiles/mistral.dir/solver/Optimizer.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/Optimizer.cpp > CMakeFiles/mistral.dir/solver/Optimizer.i
 
 CMakeFiles/mistral.dir/solver/Optimizer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/Optimizer.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/Optimizer.cpp -o CMakeFiles/mistral.dir/solver/Optimizer.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/Optimizer.cpp -o CMakeFiles/mistral.dir/solver/Optimizer.s
 
 CMakeFiles/mistral.dir/solver/Optimizer.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/Optimizer.o.requires
@@ -948,17 +948,17 @@ CMakeFiles/mistral.dir/solver/Optimizer.o.provides.build: CMakeFiles/mistral.dir
 
 CMakeFiles/mistral.dir/solver/MSAFinder.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/MSAFinder.o: ../solver/MSAFinder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/MSAFinder.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/MSAFinder.o -c /home/yufeng/research/others/compass/mistral/solver/MSAFinder.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/MSAFinder.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/MSAFinder.cpp
 
 CMakeFiles/mistral.dir/solver/MSAFinder.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/MSAFinder.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/MSAFinder.cpp > CMakeFiles/mistral.dir/solver/MSAFinder.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/MSAFinder.cpp > CMakeFiles/mistral.dir/solver/MSAFinder.i
 
 CMakeFiles/mistral.dir/solver/MSAFinder.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/MSAFinder.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/MSAFinder.cpp -o CMakeFiles/mistral.dir/solver/MSAFinder.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/MSAFinder.cpp -o CMakeFiles/mistral.dir/solver/MSAFinder.s
 
 CMakeFiles/mistral.dir/solver/MSAFinder.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/MSAFinder.o.requires
@@ -971,17 +971,17 @@ CMakeFiles/mistral.dir/solver/MSAFinder.o.provides.build: CMakeFiles/mistral.dir
 
 CMakeFiles/mistral.dir/solver/Simplifier.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/Simplifier.o: ../solver/Simplifier.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/Simplifier.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Simplifier.o -c /home/yufeng/research/others/compass/mistral/solver/Simplifier.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/Simplifier.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/Simplifier.cpp
 
 CMakeFiles/mistral.dir/solver/Simplifier.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/Simplifier.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/Simplifier.cpp > CMakeFiles/mistral.dir/solver/Simplifier.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/Simplifier.cpp > CMakeFiles/mistral.dir/solver/Simplifier.i
 
 CMakeFiles/mistral.dir/solver/Simplifier.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/Simplifier.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/Simplifier.cpp -o CMakeFiles/mistral.dir/solver/Simplifier.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/Simplifier.cpp -o CMakeFiles/mistral.dir/solver/Simplifier.s
 
 CMakeFiles/mistral.dir/solver/Simplifier.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/Simplifier.o.requires
@@ -994,17 +994,17 @@ CMakeFiles/mistral.dir/solver/Simplifier.o.provides.build: CMakeFiles/mistral.di
 
 CMakeFiles/mistral.dir/solver/VariableEliminator.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/VariableEliminator.o: ../solver/VariableEliminator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/VariableEliminator.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/VariableEliminator.o -c /home/yufeng/research/others/compass/mistral/solver/VariableEliminator.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/VariableEliminator.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/VariableEliminator.cpp
 
 CMakeFiles/mistral.dir/solver/VariableEliminator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/VariableEliminator.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/VariableEliminator.cpp > CMakeFiles/mistral.dir/solver/VariableEliminator.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/VariableEliminator.cpp > CMakeFiles/mistral.dir/solver/VariableEliminator.i
 
 CMakeFiles/mistral.dir/solver/VariableEliminator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/VariableEliminator.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/VariableEliminator.cpp -o CMakeFiles/mistral.dir/solver/VariableEliminator.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/VariableEliminator.cpp -o CMakeFiles/mistral.dir/solver/VariableEliminator.s
 
 CMakeFiles/mistral.dir/solver/VariableEliminator.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/VariableEliminator.o.requires
@@ -1017,17 +1017,17 @@ CMakeFiles/mistral.dir/solver/VariableEliminator.o.provides.build: CMakeFiles/mi
 
 CMakeFiles/mistral.dir/solver/UniversalInstantiator.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/UniversalInstantiator.o: ../solver/UniversalInstantiator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/UniversalInstantiator.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/UniversalInstantiator.o -c /home/yufeng/research/others/compass/mistral/solver/UniversalInstantiator.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/UniversalInstantiator.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/UniversalInstantiator.cpp
 
 CMakeFiles/mistral.dir/solver/UniversalInstantiator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/UniversalInstantiator.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/UniversalInstantiator.cpp > CMakeFiles/mistral.dir/solver/UniversalInstantiator.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/UniversalInstantiator.cpp > CMakeFiles/mistral.dir/solver/UniversalInstantiator.i
 
 CMakeFiles/mistral.dir/solver/UniversalInstantiator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/UniversalInstantiator.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/UniversalInstantiator.cpp -o CMakeFiles/mistral.dir/solver/UniversalInstantiator.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/UniversalInstantiator.cpp -o CMakeFiles/mistral.dir/solver/UniversalInstantiator.s
 
 CMakeFiles/mistral.dir/solver/UniversalInstantiator.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/UniversalInstantiator.o.requires
@@ -1040,17 +1040,17 @@ CMakeFiles/mistral.dir/solver/UniversalInstantiator.o.provides.build: CMakeFiles
 
 CMakeFiles/mistral.dir/solver/UnsatCoreFinder.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/UnsatCoreFinder.o: ../solver/UnsatCoreFinder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/UnsatCoreFinder.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/UnsatCoreFinder.o -c /home/yufeng/research/others/compass/mistral/solver/UnsatCoreFinder.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/UnsatCoreFinder.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/UnsatCoreFinder.cpp
 
 CMakeFiles/mistral.dir/solver/UnsatCoreFinder.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/UnsatCoreFinder.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/UnsatCoreFinder.cpp > CMakeFiles/mistral.dir/solver/UnsatCoreFinder.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/UnsatCoreFinder.cpp > CMakeFiles/mistral.dir/solver/UnsatCoreFinder.i
 
 CMakeFiles/mistral.dir/solver/UnsatCoreFinder.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/UnsatCoreFinder.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/UnsatCoreFinder.cpp -o CMakeFiles/mistral.dir/solver/UnsatCoreFinder.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/UnsatCoreFinder.cpp -o CMakeFiles/mistral.dir/solver/UnsatCoreFinder.s
 
 CMakeFiles/mistral.dir/solver/UnsatCoreFinder.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/UnsatCoreFinder.o.requires
@@ -1063,17 +1063,17 @@ CMakeFiles/mistral.dir/solver/UnsatCoreFinder.o.provides.build: CMakeFiles/mistr
 
 CMakeFiles/mistral.dir/solver/ilp-solve.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/ilp-solve.o: ../solver/ilp-solve.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/ilp-solve.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/ilp-solve.o -c /home/yufeng/research/others/compass/mistral/solver/ilp-solve.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/ilp-solve.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/ilp-solve.cpp
 
 CMakeFiles/mistral.dir/solver/ilp-solve.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/ilp-solve.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/ilp-solve.cpp > CMakeFiles/mistral.dir/solver/ilp-solve.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/ilp-solve.cpp > CMakeFiles/mistral.dir/solver/ilp-solve.i
 
 CMakeFiles/mistral.dir/solver/ilp-solve.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/ilp-solve.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/ilp-solve.cpp -o CMakeFiles/mistral.dir/solver/ilp-solve.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/ilp-solve.cpp -o CMakeFiles/mistral.dir/solver/ilp-solve.s
 
 CMakeFiles/mistral.dir/solver/ilp-solve.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/ilp-solve.o.requires
@@ -1086,17 +1086,17 @@ CMakeFiles/mistral.dir/solver/ilp-solve.o.provides.build: CMakeFiles/mistral.dir
 
 CMakeFiles/mistral.dir/solver/ConflictDatabase.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/solver/ConflictDatabase.o: ../solver/ConflictDatabase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/solver/ConflictDatabase.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/ConflictDatabase.o -c /home/yufeng/research/others/compass/mistral/solver/ConflictDatabase.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/solver/ConflictDatabase.o -c /home/lijiaying/Research/GitHub/compass/mistral/solver/ConflictDatabase.cpp
 
 CMakeFiles/mistral.dir/solver/ConflictDatabase.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/solver/ConflictDatabase.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/solver/ConflictDatabase.cpp > CMakeFiles/mistral.dir/solver/ConflictDatabase.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/solver/ConflictDatabase.cpp > CMakeFiles/mistral.dir/solver/ConflictDatabase.i
 
 CMakeFiles/mistral.dir/solver/ConflictDatabase.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/solver/ConflictDatabase.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/solver/ConflictDatabase.cpp -o CMakeFiles/mistral.dir/solver/ConflictDatabase.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/solver/ConflictDatabase.cpp -o CMakeFiles/mistral.dir/solver/ConflictDatabase.s
 
 CMakeFiles/mistral.dir/solver/ConflictDatabase.o.requires:
 .PHONY : CMakeFiles/mistral.dir/solver/ConflictDatabase.o.requires
@@ -1109,17 +1109,17 @@ CMakeFiles/mistral.dir/solver/ConflictDatabase.o.provides.build: CMakeFiles/mist
 
 CMakeFiles/mistral.dir/term/VariableTerm.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/term/VariableTerm.o: ../term/VariableTerm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/term/VariableTerm.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/term/VariableTerm.o -c /home/yufeng/research/others/compass/mistral/term/VariableTerm.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/term/VariableTerm.o -c /home/lijiaying/Research/GitHub/compass/mistral/term/VariableTerm.cpp
 
 CMakeFiles/mistral.dir/term/VariableTerm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/term/VariableTerm.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/term/VariableTerm.cpp > CMakeFiles/mistral.dir/term/VariableTerm.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/term/VariableTerm.cpp > CMakeFiles/mistral.dir/term/VariableTerm.i
 
 CMakeFiles/mistral.dir/term/VariableTerm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/term/VariableTerm.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/term/VariableTerm.cpp -o CMakeFiles/mistral.dir/term/VariableTerm.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/term/VariableTerm.cpp -o CMakeFiles/mistral.dir/term/VariableTerm.s
 
 CMakeFiles/mistral.dir/term/VariableTerm.o.requires:
 .PHONY : CMakeFiles/mistral.dir/term/VariableTerm.o.requires
@@ -1132,17 +1132,17 @@ CMakeFiles/mistral.dir/term/VariableTerm.o.provides.build: CMakeFiles/mistral.di
 
 CMakeFiles/mistral.dir/term/Term.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/term/Term.o: ../term/Term.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/term/Term.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/term/Term.o -c /home/yufeng/research/others/compass/mistral/term/Term.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/term/Term.o -c /home/lijiaying/Research/GitHub/compass/mistral/term/Term.cpp
 
 CMakeFiles/mistral.dir/term/Term.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/term/Term.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/term/Term.cpp > CMakeFiles/mistral.dir/term/Term.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/term/Term.cpp > CMakeFiles/mistral.dir/term/Term.i
 
 CMakeFiles/mistral.dir/term/Term.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/term/Term.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/term/Term.cpp -o CMakeFiles/mistral.dir/term/Term.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/term/Term.cpp -o CMakeFiles/mistral.dir/term/Term.s
 
 CMakeFiles/mistral.dir/term/Term.o.requires:
 .PHONY : CMakeFiles/mistral.dir/term/Term.o.requires
@@ -1155,17 +1155,17 @@ CMakeFiles/mistral.dir/term/Term.o.provides.build: CMakeFiles/mistral.dir/term/T
 
 CMakeFiles/mistral.dir/term/ConstantTerm.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/term/ConstantTerm.o: ../term/ConstantTerm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/term/ConstantTerm.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/term/ConstantTerm.o -c /home/yufeng/research/others/compass/mistral/term/ConstantTerm.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/term/ConstantTerm.o -c /home/lijiaying/Research/GitHub/compass/mistral/term/ConstantTerm.cpp
 
 CMakeFiles/mistral.dir/term/ConstantTerm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/term/ConstantTerm.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/term/ConstantTerm.cpp > CMakeFiles/mistral.dir/term/ConstantTerm.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/term/ConstantTerm.cpp > CMakeFiles/mistral.dir/term/ConstantTerm.i
 
 CMakeFiles/mistral.dir/term/ConstantTerm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/term/ConstantTerm.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/term/ConstantTerm.cpp -o CMakeFiles/mistral.dir/term/ConstantTerm.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/term/ConstantTerm.cpp -o CMakeFiles/mistral.dir/term/ConstantTerm.s
 
 CMakeFiles/mistral.dir/term/ConstantTerm.o.requires:
 .PHONY : CMakeFiles/mistral.dir/term/ConstantTerm.o.requires
@@ -1178,17 +1178,17 @@ CMakeFiles/mistral.dir/term/ConstantTerm.o.provides.build: CMakeFiles/mistral.di
 
 CMakeFiles/mistral.dir/term/ArithmeticTerm.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/term/ArithmeticTerm.o: ../term/ArithmeticTerm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/term/ArithmeticTerm.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/term/ArithmeticTerm.o -c /home/yufeng/research/others/compass/mistral/term/ArithmeticTerm.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/term/ArithmeticTerm.o -c /home/lijiaying/Research/GitHub/compass/mistral/term/ArithmeticTerm.cpp
 
 CMakeFiles/mistral.dir/term/ArithmeticTerm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/term/ArithmeticTerm.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/term/ArithmeticTerm.cpp > CMakeFiles/mistral.dir/term/ArithmeticTerm.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/term/ArithmeticTerm.cpp > CMakeFiles/mistral.dir/term/ArithmeticTerm.i
 
 CMakeFiles/mistral.dir/term/ArithmeticTerm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/term/ArithmeticTerm.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/term/ArithmeticTerm.cpp -o CMakeFiles/mistral.dir/term/ArithmeticTerm.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/term/ArithmeticTerm.cpp -o CMakeFiles/mistral.dir/term/ArithmeticTerm.s
 
 CMakeFiles/mistral.dir/term/ArithmeticTerm.o.requires:
 .PHONY : CMakeFiles/mistral.dir/term/ArithmeticTerm.o.requires
@@ -1201,17 +1201,17 @@ CMakeFiles/mistral.dir/term/ArithmeticTerm.o.provides.build: CMakeFiles/mistral.
 
 CMakeFiles/mistral.dir/term/FunctionTerm.o: CMakeFiles/mistral.dir/flags.make
 CMakeFiles/mistral.dir/term/FunctionTerm.o: ../term/FunctionTerm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yufeng/research/others/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mistral.dir/term/FunctionTerm.o"
-	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/term/FunctionTerm.o -c /home/yufeng/research/others/compass/mistral/term/FunctionTerm.cpp
+	g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mistral.dir/term/FunctionTerm.o -c /home/lijiaying/Research/GitHub/compass/mistral/term/FunctionTerm.cpp
 
 CMakeFiles/mistral.dir/term/FunctionTerm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mistral.dir/term/FunctionTerm.i"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yufeng/research/others/compass/mistral/term/FunctionTerm.cpp > CMakeFiles/mistral.dir/term/FunctionTerm.i
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lijiaying/Research/GitHub/compass/mistral/term/FunctionTerm.cpp > CMakeFiles/mistral.dir/term/FunctionTerm.i
 
 CMakeFiles/mistral.dir/term/FunctionTerm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mistral.dir/term/FunctionTerm.s"
-	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yufeng/research/others/compass/mistral/term/FunctionTerm.cpp -o CMakeFiles/mistral.dir/term/FunctionTerm.s
+	g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lijiaying/Research/GitHub/compass/mistral/term/FunctionTerm.cpp -o CMakeFiles/mistral.dir/term/FunctionTerm.s
 
 CMakeFiles/mistral.dir/term/FunctionTerm.o.requires:
 .PHONY : CMakeFiles/mistral.dir/term/FunctionTerm.o.requires
@@ -1398,6 +1398,6 @@ CMakeFiles/mistral.dir/clean:
 .PHONY : CMakeFiles/mistral.dir/clean
 
 CMakeFiles/mistral.dir/depend:
-	cd /home/yufeng/research/others/compass/mistral/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yufeng/research/others/compass/mistral /home/yufeng/research/others/compass/mistral /home/yufeng/research/others/compass/mistral/build /home/yufeng/research/others/compass/mistral/build /home/yufeng/research/others/compass/mistral/build/CMakeFiles/mistral.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lijiaying/Research/GitHub/compass/mistral /home/lijiaying/Research/GitHub/compass/mistral /home/lijiaying/Research/GitHub/compass/mistral/build /home/lijiaying/Research/GitHub/compass/mistral/build /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles/mistral.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mistral.dir/depend
 

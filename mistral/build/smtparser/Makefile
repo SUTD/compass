@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yufeng/research/others/compass/mistral
+CMAKE_SOURCE_DIR = /home/lijiaying/Research/GitHub/compass/mistral
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yufeng/research/others/compass/mistral/build
+CMAKE_BINARY_DIR = /home/lijiaying/Research/GitHub/compass/mistral/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yufeng/research/others/compass/mistral/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yufeng/research/others/compass/mistral/build/CMakeFiles /home/yufeng/research/others/compass/mistral/build/smtparser/CMakeFiles/progress.marks
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 smtparser/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yufeng/research/others/compass/mistral/build/CMakeFiles 0
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles /home/lijiaying/Research/GitHub/compass/mistral/build/smtparser/CMakeFiles/progress.marks
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 smtparser/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 smtparser/clean
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 smtparser/clean
 .PHONY : clean
 
 # The main clean target
@@ -85,22 +85,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 smtparser/preinstall
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 smtparser/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 smtparser/preinstall
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 smtparser/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yufeng/research/others/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 smtparser/CMakeFiles/smtparser.dir/rule:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 smtparser/CMakeFiles/smtparser.dir/rule
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f CMakeFiles/Makefile2 smtparser/CMakeFiles/smtparser.dir/rule
 .PHONY : smtparser/CMakeFiles/smtparser.dir/rule
 
 # Convenience name for target.
@@ -109,52 +109,52 @@ smtparser: smtparser/CMakeFiles/smtparser.dir/rule
 
 # fast build rule for target.
 smtparser/fast:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/build
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/build
 .PHONY : smtparser/fast
 
 # target to build an object file
 smt-parser.o:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smt-parser.o
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smt-parser.o
 .PHONY : smt-parser.o
 
 # target to preprocess a source file
 smt-parser.i:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smt-parser.i
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smt-parser.i
 .PHONY : smt-parser.i
 
 # target to generate assembly for a file
 smt-parser.s:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smt-parser.s
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smt-parser.s
 .PHONY : smt-parser.s
 
 # target to build an object file
 smtlexer.o:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtlexer.o
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtlexer.o
 .PHONY : smtlexer.o
 
 # target to preprocess a source file
 smtlexer.i:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtlexer.i
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtlexer.i
 .PHONY : smtlexer.i
 
 # target to generate assembly for a file
 smtlexer.s:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtlexer.s
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtlexer.s
 .PHONY : smtlexer.s
 
 # target to build an object file
 smtparser.o:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtparser.o
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtparser.o
 .PHONY : smtparser.o
 
 # target to preprocess a source file
 smtparser.i:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtparser.i
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtparser.i
 .PHONY : smtparser.i
 
 # target to generate assembly for a file
 smtparser.s:
-	cd /home/yufeng/research/others/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtparser.s
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(MAKE) -f smtparser/CMakeFiles/smtparser.dir/build.make smtparser/CMakeFiles/smtparser.dir/smtparser.s
 .PHONY : smtparser.s
 
 # Help Target
@@ -186,6 +186,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yufeng/research/others/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lijiaying/Research/GitHub/compass/mistral/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

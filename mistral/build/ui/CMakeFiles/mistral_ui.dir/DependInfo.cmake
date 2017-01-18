@@ -4,15 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yufeng/research/others/compass/mistral/ui/src/solver-ui.cpp" "/home/yufeng/research/others/compass/mistral/build/ui/CMakeFiles/mistral_ui.dir/src/solver-ui.o"
+  "/home/lijiaying/Research/GitHub/compass/mistral/ui/src/solver-ui.cpp" "/home/lijiaying/Research/GitHub/compass/mistral/build/ui/CMakeFiles/mistral_ui.dir/src/solver-ui.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/yufeng/research/others/compass/mistral/build/CMakeFiles/mistral.dir/DependInfo.cmake"
-  "/home/yufeng/research/others/compass/mistral/build/parser/CMakeFiles/parser.dir/DependInfo.cmake"
-  "/home/yufeng/research/others/compass/mistral/build/smtparser/CMakeFiles/smtparser.dir/DependInfo.cmake"
+  "/home/lijiaying/Research/GitHub/compass/mistral/build/CMakeFiles/mistral.dir/DependInfo.cmake"
+  "/home/lijiaying/Research/GitHub/compass/mistral/build/parser/CMakeFiles/parser.dir/DependInfo.cmake"
+  "/home/lijiaying/Research/GitHub/compass/mistral/build/smtparser/CMakeFiles/smtparser.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
